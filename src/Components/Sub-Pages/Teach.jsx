@@ -49,7 +49,8 @@ const Teach =()=> {
                     <div className="d-flex justify-content-md-center">
                         <BulletList
                                 Title='We welcome who:'
-                                List={welcomeBullets}>
+                                List={welcomeBullets}
+                                Dark={true}>
                         </BulletList>
                     </div>
                 </div>

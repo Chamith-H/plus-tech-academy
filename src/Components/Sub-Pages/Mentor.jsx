@@ -37,15 +37,15 @@ const Mentor =()=> {
 
             <div className="Mentor-Introduction pb-1 pb-sm-4">
                 <div className="row g-0">
-                    <div className="col-md-6 px-4 px-sm-5 pb-3 pb-sm-4 pb-md-0">
+                    <div className="col-md-6 px-3 px-sm-5 pb-3 pb-sm-0 pb-sm-4 pb-md-0">
                         <p>Our mentorship program: We are redefining education for the 21st century through online learning combined with high-touch, human support throughout the student lifecycle: dedicated student advisors, career coaches, and industry-expert mentors.</p>
                         <h6>If you have the desire and the skills to help the next generation, <span>WE NEED YOU</span>.!</h6>
                     </div>
 
                     <hr className="d-md-none"></hr>
 
-                    <div className="col-md-6 px-2 px-sm-5 pt-sm-4 pt-md-0">
-                        <BulletList Title='Who are the +Tech Mentors?' List={techMentors}></BulletList>
+                    <div className="col-md-6 px-2 px-sm-5 pb-3 ">
+                        <BulletList Title='Who are the +Tech Mentors?' List={techMentors} Dark={true}></BulletList>
                     </div>
                 </div>
             </div>

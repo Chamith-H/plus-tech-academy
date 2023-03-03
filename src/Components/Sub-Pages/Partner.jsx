@@ -46,7 +46,7 @@ const Partner =()=> {
 
                 <div className="col-12 col-md-5 pe-md-5 pt-3 pt-md-0">
                     <div className="Partner-Offers">
-                        <BulletList Title='The services +Tech Academy offers' List={services}></BulletList>
+                        <BulletList Title='The services +Tech Academy offers' List={services} Dark={true}></BulletList>
                     </div>
                 </div>
             </div>

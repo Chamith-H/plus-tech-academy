@@ -49,7 +49,7 @@ const ContactForm =( props )=> {
     return (
         <div className="ContactForm">
             <div className="Contect-Us">
-                <div className="Align-Contact-Box py-3 py-sm-4 py-md-5 px-3 px-sm-4 px-md-5">
+                <div className="Align-Contact-Box py-3 py-sm-4 py-md-5 px-2 px-sm-4 px-md-5">
                     <div className="Contact-Box">
                         <div className="row g-0 py-3 py-lg-4">
                             <div className="col-12 col-md-6 px-3">

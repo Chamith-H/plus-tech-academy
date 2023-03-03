@@ -1,21 +1,35 @@
-.BulletList{
+.LightList{
+    background-color: rgb(255, 255, 255);
     border-radius: 6px;
+}
+
+.DarkList {
+    border-radius: 6px;
+    background-color:rgb(12,101,209);
+}
+
+.LightTitle {
+    color: rgb(0, 68, 196);
+}
+
+.DarkTitle {
+    color: rgb(255, 255, 255);
+}
+
+.LightList {
+    color: rgb(37, 37, 37);
+}
+
+.DarkList {
+    color: rgba(255, 255, 255, 0.877);
 }
 
 .Bullet-Box {
     border-radius: 6px;
 }
 
-.Bullet-Box h5{
-    color: rgb(0, 68, 196);
-}
-
 .Bullet-Box ul {
     padding-left: 18px;
-}
-
-.Bullet-Box li {
-    color: rgb(37, 37, 37);
 }
 
 .Align-Benifit-Button {

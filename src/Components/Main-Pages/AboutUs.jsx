@@ -147,7 +147,7 @@ function AboutUs() {
                             </div>
 
                             <div className="col-sm-6 pe-sm-4 ps-sm-2">
-                                <ViewCard Title='Our Mission' CardImage={Mission} Description='Build a community of job ready digital talent who are happy for each other’s success.'></ViewCard>
+                                <ViewCard Title='Our Mission' CardImage={Mission} Dark={true} Description='Build a community of job ready digital talent who are happy for each other’s success.'></ViewCard>
                             </div>
                         </div>
                     </div>
@@ -175,13 +175,13 @@ function AboutUs() {
                 <div className="Val-and-Object py-4">
                     <div className="row g-0">
                         <div className="col-sm-6 ps-sm-4 ps-md-5 px-2 pe-sm-2 pb-3 pb-sm-0">
-                            <div className="Objectives-About py-sm-4 px-sm-4">
-                                <BulletList Title='Our Objectives' List={objectives}></BulletList>
+                            <div className="Objectives-About py-sm-2 px-sm-2">
+                                <BulletList Title='Our Objectives' List={objectives} Dark={true}></BulletList>
                             </div>
                         </div>
 
                         <div className="col-sm-6 pe-sm-4 pe-md-5 px-2 ps-sm-2">
-                            <div className="Values-About pt-sm-2 px-sm-4">
+                            <div className="Values-About px-sm-2">
                                 <BulletList Title='Our Values' List={values} Sub_Active={true} SubTitle='We are growing around these core values:'></BulletList>
                             </div>
                         </div>

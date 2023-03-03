@@ -158,7 +158,7 @@ function Home() {
                     ))}
                 </div>
 
-                <div className="d-block d-md-none px-3">
+                <div className="d-block d-md-none px-2 px-sm-4">
                     <div className="Benefits-Grid pb-5">
                         <div className="Benifit-Titles py-1 px-1">
                             <button onClick={()=> setSelected(1)}>STUDENTS</button>

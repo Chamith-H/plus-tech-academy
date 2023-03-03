@@ -94,7 +94,7 @@ function Enterprises() {
               </div>
 
               <div className="col-12 col-md-8 Enroll-Contents">
-                  <div className="Why-Enroll mx-3 mx-sm-4 mb-4 mx-sm-5 mb-sm-5 mx-md-0 mb-md-0 ps-sm-4 ps-md-3 pt-md-4 bg-white">
+                  <div className="Why-Enroll mx-2 mx-sm-4 mb-4 mx-sm-5 mb-sm-5 mx-md-0 mb-md-0 ps-sm-4 ps-md-3 pt-md-4 bg-white">
                         <BulletList Title={benifits.title} List={benifits.benifitList} Visible={false}></BulletList>
                         <div className="d-none d-lg-block pe-4">
                             <img src={EnterprisesImage} alt="Enroll-Image"/>
@@ -121,16 +121,16 @@ function Enterprises() {
           </div>
 
           <div className="Enterprises-Details mb-3">
-              <div className="row g-0">
+              <div className="row g-0 px-2 px-sm-0">
                   <div className="col-md-4 col-lg-3 d-flex justify-content-center justify-content-md-end">
-                      <div className="col-11 col-sm-9 col-md-11 mt-3 my-md-4 pt-2 py-sm-3 px-lg-2 For-Student-E">
+                      <div className="col-12 col-sm-10 col-md-11 mt-3 my-md-4 pt-2 py-sm-3 px-lg-2 For-Student-E">
                         <BulletList Title={students.title} List={students.benifitList}></BulletList>
                       </div>
                   </div>
 
                   <div className="col-md-8 col-lg-9 d-flex justify-content-center">
-                      <div className="col-11 col-sm-9 col-md-11 For-Partners my-4  px-md-3">
-                          <BulletList Title={partner.title} List={partner.benifitList}></BulletList>
+                      <div className="col-12 col-sm-10 col-md-11 For-Partners my-4 px-md-3">
+                          <BulletList Title={partner.title} List={partner.benifitList} Dark={true}></BulletList>
                           <img className="d-none d-lg-block" src={PartnerImage} alt="Partner-Image" />
                       </div>
                   </div>
