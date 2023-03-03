@@ -1,0 +1,224 @@
+/* ******************************************************************/
+                        /* STYLES FOR HOME PAGE */
+/* ******************************************************************/
+
+/* Styles 01 - Banner */
+.Banner {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-height: 500px;
+    background-image: url('../../Assets/Home-Page/Banner-Background.jpg');
+    background-size: cover;
+}
+
+.Baner-Image {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 400px;
+}
+
+.Baner-Image img {
+    margin-top: 40px;
+    height: 130%;
+}
+
+.Banner-Contents {
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+
+.Content-Box {
+    display: flex;
+}
+
+.Single-Content {
+    background: linear-gradient(to right, rgba(0, 89, 255, 0.795), rgba(0, 102, 255, 0.267));
+    box-shadow: 2px 2px 2px 0px rgba(0, 0, 0, 0.384);
+    background-position: right;
+    border-radius: 45px;
+    padding-left: 3px;
+    padding-right: 3px;
+    width: 100%;
+}
+
+.Content-Details {
+    display: flex;
+    height: 75px;
+    width: 100%;
+    justify-content: space-between;
+    border-top-left-radius: 55px;
+    border-bottom-left-radius: 55px;
+    border-bottom-right-radius:55px;
+    border-top-right-radius: 55px;
+    margin-top: 3px;
+    margin-bottom: 3px;
+    background-color: rgb(255, 255, 255);
+}
+
+.Content-Details img:hover {
+    border-style: solid;
+    border-radius: 100%;
+    border-color: rgba(19, 116, 195, 0.74);
+}
+
+.Show-More-Button {
+    height: 100%;
+}
+
+.Show-More-Button:active{
+    height: 115%;
+    margin-top: -4px;
+    margin-right: -6px;
+}
+
+.Content {
+    padding-left: 33px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    padding-top: 10px;
+}
+
+.Content h5 {
+    color: rgb(0, 87, 201);
+}
+
+.Content h6{
+    text-align: start;
+    font-size: 15px;
+    font-weight: 400;
+    margin-top: -6px;
+    color: rgb(0, 0, 0);
+}
+/* ******************************************************************/
+
+
+/* Styles 02 - Benifits */
+
+.Benifits {
+    background-image: url('../../Assets/Home-Page/Benifits-Background.jpg');
+    background-size: cover;
+    border-bottom-style: solid;
+    border-width: 1px;
+    border-color: rgba(0, 49, 105, 0.151);
+}
+
+.Benifits h4 {
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    color: rgba(0, 0, 0, 0.699); 
+    text-align: center                                          ;
+}
+
+.Benifits span {
+    color: rgb(0, 91, 202);
+}
+
+.Single-Benefit {
+    box-shadow: 2px 2px 4px 1px #00000081;
+    border-radius: 6px;
+    background-color: rgb(255, 255, 255);
+}
+
+.Benifit-Titles {
+    background: linear-gradient(to right, rgb(0, 84, 187), rgb(0, 160, 223));
+    display: flex;
+    justify-content: space-between;
+}
+
+.Benifit-Titles button {
+    border-style: none;
+    background-color: rgba(240, 248, 255, 0);
+    font-size: 15px;
+    color: #ffffff;
+}
+
+/* ******************************************************************/
+
+
+/* Styles 03 - Our job role */
+
+.Our-Role {
+    text-align: center;
+}
+
+.Our-Role h5 {
+    color: rgb(0, 0, 0);
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    font-weight: 500;
+}
+
+.Our-Role span {
+    color: rgb(0, 58, 219);
+}
+
+.Single-Role {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.Role-Circle {
+    background-color: rgba(255, 255, 255, 0.075);
+    height: 220px;
+    width: 220px;
+    border-radius: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    color: rgb(255, 255, 255);
+    box-shadow: 1px 1px 4px 1px #00000067;
+}
+
+.Role-Circle img {
+    height: 60%;
+}
+
+.Role-Description {
+    width:150px;
+    text-align: center;
+}
+
+.Role-Description p {
+    font-weight: 500;
+    color: rgba(0, 49, 185, 0.918);;
+}
+/* ******************************************************************/
+
+
+
+/* MEDIA QUERIES */
+
+@media only screen and (min-width: 0px) and (max-width: 576px) {
+
+    .Content h6 {
+        color: rgb(88, 88, 88);
+    }
+
+    .Baner-Image img {
+        margin-right: 10px;
+        height: 100%;
+    }
+
+    .Call img {
+        margin-top: 1px;
+        width: 18px;
+        height: 18px;
+    }
+
+    .Contact-Title p {
+        color: rgb(88, 88, 88);
+    }
+
+    form label {
+        color: rgb(68, 68, 68);
+    }
+}
+
+@media only screen and (min-width: 0px) and (max-width: 505px) {
+
+}

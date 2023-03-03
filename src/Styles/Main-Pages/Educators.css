@@ -1,0 +1,32 @@
+.Title-Educators {
+    border-bottom-style: solid;
+    border-width: 1px;
+    border-color: rgb(199, 199, 199);
+}
+
+.Choose-Education-Role h2{
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    text-align: center;
+}
+
+.Choose-Education-Role span {
+    color: rgb(1,86,188);
+}
+
+.Educator-Intro {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.Educator-Intro p {
+    text-align: justify;
+}
+
+.Educator-Intro h6 {
+    text-align: start;
+}
+
+.Educator-Intro p span {
+    text-align: left;
+}

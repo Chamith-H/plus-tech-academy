@@ -1,0 +1,132 @@
+.About-Selection {
+    background-color: rgb(231, 231, 231);
+}
+
+.About-Selection h6 {
+    text-align: center;
+}
+
+.About-Selection span{
+    font-weight: 400;
+    color: rgb(0, 0, 0);
+}
+
+.Our-Belief {
+    border-bottom-style: solid;
+    border-width: 1px;
+    border-color: rgb(207, 207, 207);
+}
+
+.Our-Belief img {
+    width: 150px;
+}
+
+.Val-and-Object {
+    border-bottom-style: solid;
+    border-width: 1px;
+    border-color: rgb(207, 207, 207);
+    background-color: rgb(240, 240, 240);
+}
+
+.Objectives-About {
+    background: linear-gradient(to right, rgb(1, 82, 182), rgb(20, 124, 221));
+    border-radius: 6px;
+}
+
+.Values-About {
+    border-style: solid;
+    border-width: 1px;
+    border-color: rgb(20, 124, 221);
+    border-radius: 6px;
+    background-color: rgb(255, 255, 255);
+}
+
+.About-Helping h3 {
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    text-align: start;
+    margin-bottom: 20px;
+}
+
+.About-Helping span {
+    color: rgb(1,86,188);
+}
+
+.About-Helping p {
+    margin-bottom: 5px;
+    text-align: justify;
+}
+
+.Navigating-Links-About {
+    display:flexbox
+}
+
+.About-Navigations {
+    display: inline-flex;
+    justify-content: start;
+    white-space: nowrap;
+}
+
+.Asking-Faqs {
+    background-color: rgb(231, 231, 231);
+}
+
+.Faq-List h6 {
+    color: rgb(0, 0, 0);
+}
+
+.Asking-Faqs p {
+    margin-top: -6px;
+    color: rgb(100, 100, 100);
+}
+
+.Faq-List {
+    border-bottom-style: solid;
+    border-width: 1px;
+    border-color: rgb(207, 207, 207);
+}
+
+.Faq-List p{
+    text-align: justify;
+    margin-top: -4px;
+    color: rgb(61, 61, 61);
+}
+
+.Contact-About-Box {
+    background-color: rgb(231, 231, 231);
+}
+
+.Contact-About-Box h6 {
+    text-align: center;
+}
+
+.Contact-About-Box span {
+    color: rgb(0, 77, 165);
+}
+
+@media only screen and (min-width: 0px) and (max-width: 768px) {
+    .About-Selection h6 {
+        text-align: justify;
+    }
+
+    .Faq-List h6 {
+        color: rgb(0, 0, 0);
+    }
+
+    .Faq-List p {
+        color: rgb(73, 73, 73);
+    }
+
+
+    .Contact-About-Box h6 {
+        color: rgba(255, 255, 255, 0.973);
+    }
+
+    .Contact-About-Box span {
+        color: rgb(201, 230, 255);
+    }
+
+    .Contact-About-Box {
+        background-color: rgb(12,103,198);
+    }
+
+}

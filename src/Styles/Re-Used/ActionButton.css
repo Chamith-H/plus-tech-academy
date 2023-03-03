@@ -1,0 +1,9 @@
+.ActionButton {
+    border-style: none;
+    background: linear-gradient(to right, rgba(0, 102, 226, 0.932), rgb(60, 177, 255));
+    height: 34px;
+    width: 100%;
+    border-radius: 5px;
+    font-size: 15px;
+    color: rgb(255, 255, 255);
+}

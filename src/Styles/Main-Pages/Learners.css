@@ -1,0 +1,124 @@
+.Learners {
+    z-index: 3;
+}
+
+.Page-Top {
+    display: flex;
+}
+
+.Title-Learners {
+    border-bottom-style: solid ;
+    border-width: 1px;
+    border-color: rgb(206, 206, 206);
+}
+
+.Why-Enroll {
+    margin-top: -20px;
+    border-radius: 8px;
+    box-shadow: 0px 1px 5px 1px #00000083;
+    display: flex;
+    justify-content: space-between;
+}
+
+.Why-Enroll img {
+    height: 150px;
+}
+
+.Enroll-Contents {
+    background-color: rgb(240, 240, 240);
+}
+
+.Tranings h2, .Guidence-Description h2 {
+    color: rgb(0, 0, 0);
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+}
+
+.Tranings span, .Guidence-Description span {
+    color: rgb(0, 58, 219);
+}
+
+.Tranings h5 {
+    margin-top: -5px;
+    color: rgb(104, 104, 104);
+    text-align: center;
+}
+
+.Guidence-Services {
+    border-top-style: solid;
+    border-bottom-style: solid;
+    border-width: 1px;
+    border-color: rgb(199, 199, 199);
+}
+
+.Guidence-List {
+    box-shadow: 1px 1px 3px 1px #00000080;
+    border-radius: 6px;
+    border-color: rgb(82, 163, 255);
+}
+
+.Guidence-Description p {
+    margin-top: 10px;
+    text-align: justify;
+    color: rgb(97, 97, 97);
+}
+
+.Guidence-Box img {
+    width: 75%;
+}
+
+.Link-Box {
+    background-color: rgba(255, 255, 255, 0.979);
+    border-radius: 5px;
+    box-shadow: 2px 2px 3px 1px #0000007c;
+}
+
+.Link-Box h5 {
+    color: rgb(77, 77, 77);
+}
+
+.Pages {
+    background: linear-gradient(to right, rgb(0, 84, 187), rgb(72, 203, 255));
+}
+
+.Page-Link-List {
+    padding-left: 19px;
+}
+
+.Page-Link-List li {
+    color: rgb(100, 100, 100);
+}
+
+.Page-Link-List li a {
+    color: rgb(0, 114, 221);
+}
+
+.Navigations {
+    display: flex;
+    justify-content: center;
+    background: linear-gradient(to left, rgb(0, 93, 206), rgb(54, 197, 253));
+    box-shadow: 0px 0px 4px 3px #00000056;
+}
+
+
+@media only screen and (min-width: 0px) and (max-width: 576px) {
+    .Tranings h2, .Guidence-Description h2 {
+        text-align: center;
+    }
+}
+
+@media only screen and (min-width: 768px) and (max-width: 4576px) {
+    .Enroll-Contents {
+        background-color: rgb(255, 255, 255);
+    }
+    
+    .Why-Enroll {
+        margin-top: 0px;
+        border-radius: 0px;
+        box-shadow: 0px 0px 0px 0px #ffffff00;
+    }
+
+    .Tranings {
+        margin-top: 1px;
+        background-color: rgb(255, 255, 255);
+    }
+}

@@ -1,0 +1,8 @@
+.RadioInput {
+    display: flex;
+}
+
+.label {
+    margin-left: 1px;
+    color: rgb(70, 70, 70);
+}

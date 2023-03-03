@@ -1,0 +1,97 @@
+.Footer-Align {
+    display: flex;
+    align-items: center;
+    background-color:  rgb(255, 255, 255);
+}
+
+.Footer-Contents {
+    box-shadow: 0px -1px 3px 1px #00000062;
+}
+
+.Footer-Content-Info {
+    text-align: center;
+}
+
+.Footer-Content-Contact {
+    /* width: 100%; */
+    border-left-style: solid;
+    border-width: 1px;
+    border-color: rgba(0, 40, 88, 0.589);
+}
+
+.Footer-Content-Contact h4, .Footer-Content-Info h4 {
+    font-weight: 600;
+    color: rgba(0, 6, 88, 0.726);
+}
+
+.Footer-Content-Contact p {
+    font-weight: 500;
+    color: rgb(34, 34, 34);
+}
+
+.Footer-Content-Info p {
+    font-weight: 400;
+    color: rgb(49, 49, 49);
+}
+
+.Footer-Content-Info span {
+    font-weight: 500;
+}
+
+.Footer-Logo {
+    background: linear-gradient(to right, rgb(1, 82, 182), rgb(20, 124, 221));
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-color: rgb(255, 255, 255);
+    height: 170px;
+}
+
+.Footer-Logo img {
+    height: 85%;
+}
+
+.Footer-Contact {
+    display: flex;
+    justify-content: start;
+}
+
+.Footer-Contact img {
+    margin-right: 5px;
+    margin-top: 1px;
+    width: 20px;
+    height: 20px
+}
+
+.Align-Bottom {
+    border-top-style: solid;
+    border-width: 1px;
+    border-color: rgba(0, 42, 104, 0.048);
+}
+
+.Footer-Bottom {
+    text-align: center;
+    color: rgb(114, 114, 114);
+    background-color: rgb(245, 245, 245);
+}
+
+
+@media only screen and (min-width: 768px) and (max-width: 992px) {
+    .Footer-Logo img {
+        height: 70%;
+    } 
+}
+
+@media only screen and (min-width: 0px) and (max-width: 576px) {
+    .Footer-Content-Contact{
+        border-style: none;
+    }
+
+    .Footer-Content-Contact h4 {
+        text-align: center;
+    }
+
+    .Footer-Content-Info p {
+        color: rgb(94, 94, 94);
+    }
+}

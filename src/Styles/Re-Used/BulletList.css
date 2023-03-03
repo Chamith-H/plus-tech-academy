@@ -1,0 +1,35 @@
+.BulletList{
+    border-radius: 6px;
+}
+
+.Bullet-Box {
+    border-radius: 6px;
+}
+
+.Bullet-Box h5{
+    color: rgb(0, 68, 196);
+}
+
+.Bullet-Box ul {
+    padding-left: 18px;
+}
+
+.Bullet-Box li {
+    color: rgb(37, 37, 37);
+}
+
+.Align-Benifit-Button {
+    display: flex;
+    justify-content: center;
+}
+
+.Benifit-Button {
+    width: 160px;
+}
+
+.Bullet-Box p {
+    margin-top: -7px;
+    font-weight: 400;
+    color: rgb(134, 134, 134);
+    margin-bottom: 3px;
+}

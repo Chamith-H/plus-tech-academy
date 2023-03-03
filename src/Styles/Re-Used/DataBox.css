@@ -1,0 +1,42 @@
+.Data-Box {
+    background-color: rgb(255, 255, 255);
+    border-radius: 5px;
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    box-shadow: 2px 2px 4px 1px #00000063;
+}
+
+.Data-Title h3 {
+    font-size: 16px;
+    text-align: center;
+    color: rgba(0, 0, 109, 0.911);
+}
+
+.Data-Title h4 {
+    font-size: 13px;
+    text-align: center;
+    background-color:rgb(208, 239, 255);
+    color: rgb(75, 75, 75);
+}
+
+.Data-Box p {
+    font-size: 13px;
+    text-align: center;
+    color: rgb(71, 71, 71);
+}
+
+@media only screen and (min-width: 0px) and (max-width: 576px) {
+    .Data-Title h3 {
+        font-size: 13px;
+    }
+
+    .Data-Title h4 {
+        font-size: 13px;
+    }
+
+    .Data-Box p {
+        font-size: 13px;
+    }
+}

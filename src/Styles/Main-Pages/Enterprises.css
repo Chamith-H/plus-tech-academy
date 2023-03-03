@@ -1,0 +1,73 @@
+.Page-Row-Title {
+    background-color: rgb(224, 224, 224);
+    border-bottom-style: solid;
+    border-width: 1px;
+    border-color: rgb(211, 211, 211);
+}
+
+.Enterprises-Features {
+    background-image: url('../../Assets//Home-Page/Benifits-Background.jpg');
+    background-size: cover;
+}
+
+.Enterprises-Paragraph {
+    box-shadow: 0px 0px 3px 2px #00000063;
+}
+
+.Enterprises-Paragraph p {
+    background-color: rgb(241, 241, 241);
+    font-weight: 500;
+}
+
+.For-Partners {
+    background-color: rgba(0, 93, 207, 0.952);
+    border-radius: 8px;
+    display: flex;
+    justify-content: space-between;
+}
+
+.For-Partners img {
+    width: 170px;
+}
+
+.For-Student-E {
+    border-style: solid;
+    border-width: 2px;
+    border-radius: 8px;
+    border-color: rgb(0,85,187);
+}
+
+.Feature-Box {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    border-radius: 100%;
+    aspect-ratio: 1/1;
+    box-shadow: 1px 1px 2px 1px #00000067;
+    background-image: url('../../Assets/Enterprises-Page/FeatureBackground.jpg');
+    background-size: cover;
+}
+
+.Feature-Box h6 {
+    color: rgb(0, 78, 173);
+}
+
+.Feature-Box p {
+    font-weight: 500;
+    color: rgb(112, 112, 112);
+    text-align: center;
+}
+
+@media only screen and (min-width: 0px) and (max-width: 768px) {
+    .Enterprises-Paragraph p {
+        font-weight: 500;
+    }
+
+    .For-Student-E {
+        border-style: solid;
+        border-width: 1px;
+        border-radius: 6px;
+        border-color: rgb(0,85,187);
+    }
+}

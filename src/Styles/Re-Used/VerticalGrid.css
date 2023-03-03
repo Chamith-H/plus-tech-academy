@@ -1,0 +1,93 @@
+.VerticalGrid {
+    background-color: rgb(240, 240, 240);
+}
+
+.Main-Buttons {
+    display: flex;
+    flex-direction: column;
+    border-style: solid;
+    border-right-style: none;
+    border-width: 1px;
+    border-color: rgb(226, 226, 226);
+}
+
+.Tab-Button-Not-Clicked {
+    display: flex;
+    background-color: rgb(255, 255, 255);
+    flex-direction: row;
+    align-items: center;
+    height: 50px;
+}
+
+.Tab-Button-Clicked {
+    display: flex;
+    background-color: rgb(240, 240, 240);
+    flex-direction: row;
+    align-items: center;
+    height: 50px;
+}
+
+.Tab-Button-Not-Clicked:hover {
+    background-color:rgb(245, 245, 245);
+}
+
+.Single-Tab {
+    font-size: 14px;
+    font-weight: 500;
+}
+
+.Active-Tab {
+    font-size: 15px;
+    font-weight: 500;
+    color: rgb(0, 129, 214);
+}
+
+.Not-Clicked {
+    height: 100%;
+    margin-right: 10px;
+}
+
+.Clicked {
+    height: 100%;
+    background-color: rgb(0, 132, 219);
+    margin-right: 10px;
+}
+
+.Grid-Scroll {
+    height: 100%;
+    width: 100%;
+    overflow-x: scroll;
+}
+
+.Grid-Contents {
+    display: flex;
+    width: 100%;
+}
+
+.Grid-Scroll::-webkit-scrollbar{
+    height: 10px;
+}
+
+.Grid-Scroll::-webkit-scrollbar-track{
+    background-color: rgb(211, 210, 210)
+}
+
+.Grid-Scroll::-webkit-scrollbar-thumb {
+    background-color: rgb(0, 102, 170);
+    border-radius: 20px;
+}
+
+
+@media only screen and (min-width: 0px) and (max-width: 576px) {
+    .Single-Tab {
+        font-size: 12px;
+    }
+
+    .Active-Tab { 
+        font-size: 13px;
+    }
+
+    .Grid-Scroll::-webkit-scrollbar{
+        height: 5px;
+    }
+}

@@ -1,0 +1,106 @@
+.ContactForm {
+    width: 100%;
+}
+
+.Contect-Us {
+    background-image: url('../../Assets/Common/Contact-Background.jpg');
+    background-size: cover;
+}
+
+.Align-Contact-Box {
+    background-color: rgba(0, 0, 0, 0.459);
+}
+
+.Contact-Box {
+    border-radius: 6px;
+    background-color: rgba(255, 255, 255, 0.925);
+}
+
+.ContactForm form {
+    display: flex;
+    flex-direction: column;
+    border-radius: 6px;
+    background-color: rgba(255, 255, 255, 0.801);
+    box-shadow: 0px 0px 15px 1px #00000021;
+}
+
+.Contact-Title {
+    width: 100%;
+    text-align: center;
+}
+
+.Contact-Title h4 {
+    color: rgb(0, 0, 0);
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    font-weight: 500;
+}
+
+.Contact-Title span {
+    color: rgb(0, 58, 219);
+}
+
+.Contact-Title p {
+    margin-top: -5px;
+    color: rgb(56, 56, 56);
+}
+
+.Talk-With-Us p {
+    text-align: center;
+    font-weight: 500;
+    color: rgb(100, 100, 100);
+}
+
+.Talk-With-Us span {
+    color: rgb(0, 0, 192);
+}
+
+.Sub-Title span {
+    font-weight: 500;
+    color: rgb(109, 109, 109);
+}
+
+.ContactForm form textarea {
+    font-size: 15px;
+    padding-top: 4px;
+    padding-bottom: 4px;
+    padding-left: 7px;
+    border-style: solid;
+    border-width: 1px;
+    border-radius: 4px;
+    border-color: rgba(192, 192, 192, 0.637);
+    background-color: rgb(255, 255, 255);
+}
+
+form textarea::placeholder {
+    font-size: 15px;
+    font-style: italic;
+    color: rgb(185, 185, 185);
+}
+
+.Text-Message {
+    width: 100%;
+}
+
+.Contact-Image {
+    display: flex;
+    justify-content: center;
+}
+
+.Contact-Image img {
+    width:40%;
+}
+
+.Contact-Call {
+    display: flex;
+    justify-content: center;
+}
+
+.Call  {
+    display: flex;
+}
+
+.Call img {
+    margin-right: 5px;
+    width:22px;
+    height:22px
+}

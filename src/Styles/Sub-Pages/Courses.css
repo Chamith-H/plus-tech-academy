@@ -1,0 +1,140 @@
+.Back-to-Courses {
+    position: fixed;
+}
+
+.Course-Information {
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+}
+
+.Course-Title h2 {
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+}
+
+.Course-Description {
+    border-bottom-style: solid;
+    border-width: 1px;
+    border-color: rgb(160, 160, 160);
+}
+
+.Course-Description p {
+    text-align: justify;
+}
+
+.Course-Title span {
+    color: rgb(0, 80, 155);
+}
+
+.Apply-Form {
+    background-color: rgb(238, 238, 238);
+    border-radius: 6px;
+    box-shadow: 2px 2px 4px 0px #000000a1;
+}
+
+.Join-Course h5 {
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    font-size: 22px;
+}
+
+.Join-Course span {
+    color: rgb(0, 80, 155);
+}
+
+.Detail-Set h6{
+    color: rgb(73, 73, 73);
+}
+
+.Detail-Set span {
+    font-weight: 500;
+    color: rgb(0, 117, 25);
+}
+
+.Detail-Set .Course-Fee {
+    color: rgb(219, 0, 0);
+}
+
+.Payments {
+    background-color:rgb(6,94,193);
+    box-shadow: 0px 0px 6px 0px #00000036;
+}
+
+.Bank-Details {
+    margin-top: -10px;
+}
+
+.Bank-Details h6 {
+    color: rgba(255, 255, 255, 0.774);
+    font-weight: 400;
+}
+
+.Bank-Details span {
+    color: rgb(255, 255, 255);
+    font-weight: 400;
+}
+
+.Bank-Details .Account-Number {
+    color: rgb(172, 245, 255);
+    font-weight: 400;
+}
+
+.Payment-Instructions {
+    border-left-style: solid;
+    border-width: 1px;
+    border-color: rgb(170, 170, 170);
+}
+
+.Payment-Instructions h5 {
+    font-weight: 400;
+    color: rgb(255, 255, 255);
+}
+
+.Advice {
+    margin-top: -5px;
+}
+
+.Advice-Title {
+    display: flex;
+}
+
+.Advice-Title h6 {
+    color: rgb(255, 255, 255);
+}
+
+.Advice-Details p {
+    margin-top: -10px;
+    color: rgba(255, 255, 255, 0.767);
+}
+
+.Advice-Details span {
+    font-weight: 400;
+    color: rgb(255, 255, 255);
+}
+
+.Enroll-Image img {
+    width: 300px;
+}
+
+@media only screen and (min-width: 0px) and (max-width: 768px) {
+    .Payment-Instructions {
+        border-left-style: none;
+        border-top-style: solid;
+        padding-top: 23px;
+        border-width: 1px;
+        border-color: rgb(170, 170, 170);
+    }
+
+    .Join-Course h5 {
+        font-size: 21px;
+        text-align: center;
+    }
+
+    .Join-Course p {
+        text-align: center;
+        color: rgb(255, 255, 255);
+        background: linear-gradient(to right, rgb(0, 84, 187), rgb(31, 191, 255));
+        padding-top: 5px;
+        padding-bottom: 5px;
+    }
+}

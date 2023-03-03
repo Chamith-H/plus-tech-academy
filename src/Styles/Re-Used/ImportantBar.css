@@ -1,0 +1,37 @@
+.ImportantBar {
+    background-color: rgb(235, 235, 235);
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    border-top-style: solid;
+    border-width: 1px;
+    border-color: rgb(207, 207, 207);
+}
+
+.ImportantBar h5{
+    text-align: center;
+    color: rgb(0, 0, 0);
+}
+
+.ImportantBar h6 {
+    text-align: center;
+    color: rgb(92, 92, 92);
+}
+
+.Get-Contact p {
+    margin-top: -13px;
+    color: rgb(0, 0, 0);
+}
+
+.Get-Contact span {
+    font-weight: 500;
+    color: rgb(0, 0, 0);
+}
+
+.Get-Contact .Important-Email {
+    color: rgb(0, 26, 255);
+}
+
+.Get-Contact .Important-Role {
+    color: rgb(211, 0, 0);
+}

@@ -1,0 +1,22 @@
+.PageSubtitle {
+    background-image: url('../../Assets/Others/EducatorSubPages.jpg');
+    background-size: cover;
+}
+
+.Align-Subtitle {
+    background-color: rgba(0, 0, 0, 0.575);
+}
+
+.PageSubtitle h1 {
+    text-align: center;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    font-weight: 500;
+}
+
+.PageSubtitle h1{
+    color: rgb(255, 255, 255);
+}
+
+.PageSubtitle span {
+    color: rgb(37, 204, 255);
+}

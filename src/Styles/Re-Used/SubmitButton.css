@@ -1,0 +1,8 @@
+.SubmitButton button {
+    border-style: none;
+    background: linear-gradient(to right,  rgb(60, 151, 255), rgba(0, 102, 226, 0.932),   rgb(60, 151, 255));
+    height: 34px;
+    width:100%;
+    border-radius: 5px;
+    color: rgb(255, 255, 255);
+}
