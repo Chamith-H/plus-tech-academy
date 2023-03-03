@@ -1,7 +1,7 @@
 {
   "files": {
-    "main.css": "/plus-tech-academy/static/css/main.3247da7d.css",
-    "main.js": "/plus-tech-academy/static/js/main.4d293800.js",
+    "main.css": "/plus-tech-academy/static/css/main.a4c627d4.css",
+    "main.js": "/plus-tech-academy/static/js/main.a9ca0174.js",
     "static/js/787.3838c8ef.chunk.js": "/plus-tech-academy/static/js/787.3838c8ef.chunk.js",
     "static/media/Enterprises.png": "/plus-tech-academy/static/media/Enterprises.845b33090367953aaaa7.png",
     "static/media/Belief.png": "/plus-tech-academy/static/media/Belief.8f10e33b9d9a524f23a5.png",
@@ -35,12 +35,12 @@
     "static/media/Call.png": "/plus-tech-academy/static/media/Call.6d762e082919dc440d32.png",
     "static/media/Button-Circle.png": "/plus-tech-academy/static/media/Button-Circle.38ae1876b404cf9148ea.png",
     "index.html": "/plus-tech-academy/index.html",
-    "main.3247da7d.css.map": "/plus-tech-academy/static/css/main.3247da7d.css.map",
-    "main.4d293800.js.map": "/plus-tech-academy/static/js/main.4d293800.js.map",
+    "main.a4c627d4.css.map": "/plus-tech-academy/static/css/main.a4c627d4.css.map",
+    "main.a9ca0174.js.map": "/plus-tech-academy/static/js/main.a9ca0174.js.map",
     "787.3838c8ef.chunk.js.map": "/plus-tech-academy/static/js/787.3838c8ef.chunk.js.map"
   },
   "entrypoints": [
-    "static/css/main.3247da7d.css",
-    "static/js/main.4d293800.js"
+    "static/css/main.a4c627d4.css",
+    "static/js/main.a9ca0174.js"
   ]
 }
