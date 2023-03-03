@@ -15,8 +15,41 @@
     color: rgb(0, 78, 180);
 }
 
+.LightButton:hover {
+    border-color: rgba(255, 255, 255, 0.507);
+    background: linear-gradient(to right, rgb(0, 84, 187), rgb(0, 109, 211));
+    color: rgb(255, 255, 255);
+}
+
+.DarkButton {
+    display: flex;
+    padding-top: 3px;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    border-style: solid;
+    border-width: 1px;
+    border-color: rgba(255, 255, 255, 0.507);
+    background: linear-gradient(to right, rgb(0, 84, 187), rgb(0, 114, 245));
+    height: 42px;
+    width: 100%;
+    border-radius: 6px;
+    font-weight: 500;
+    color: rgb(255, 255, 255);
+}
+
+.DarkButton:hover {
+    border-color: rgba(0, 75, 167, 0.932);
+    background: linear-gradient(to right, rgb(233, 233, 233), rgb(255, 255, 255));
+    color: rgb(0, 78, 180);
+}
+
 @media only screen and (min-width: 0px) and (max-width: 576px) {
     .LightButton {
+        height: 38px;
+    }
+
+    .DarkButton {
         height: 38px;
     }
 }

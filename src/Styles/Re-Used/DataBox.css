@@ -8,6 +8,10 @@
     box-shadow: 2px 2px 4px 1px #00000063;
 }
 
+.Data-Box:hover {
+    box-shadow: 0px 0px 25px 1px #0000004d;
+}
+
 .Data-Title h3 {
     font-size: 16px;
     text-align: center;

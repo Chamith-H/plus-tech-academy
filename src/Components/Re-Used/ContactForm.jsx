@@ -178,8 +178,8 @@ const ContactForm =( props )=> {
 
                                     {submit && (
                                     <motion.div className="Show-the-status"
-                                                initial={{ scale: 0, y:50 }}
-                                                animate={{ scale: 1, y:0 , transition: { duration: 0.2 }}}>
+                                                initial={{ scale: 0.5, y:50 }}
+                                                animate={{ scale: 1, y:0 }}>
                                     
                                         
                                             <div className="Submit-Status">

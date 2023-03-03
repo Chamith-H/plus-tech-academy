@@ -102,6 +102,7 @@ function Learners() {
                         <ClickButton 
                             Title='CLICK HERE TO' 
                             Role='FIND WORKS'
+                            Dark={true}
                             press_Action={()=> handle_Popup(0)}>
                         </ClickButton>
                     </div>

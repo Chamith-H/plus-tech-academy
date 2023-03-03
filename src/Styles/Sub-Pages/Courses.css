@@ -88,6 +88,7 @@
 .Payment-Instructions h5 {
     font-weight: 400;
     color: rgb(255, 255, 255);
+    text-decoration: underline;
 }
 
 .Advice {

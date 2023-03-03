@@ -193,7 +193,7 @@ function Course() {
 
                     <div className="col-12 col-md-7 col-lg-8 d-flex justify-content-md-center">
                         <div className="Payment-Instructions ps-md-3">
-                            <h5 className="mb-3">To facilitate identification of your remittance, please quote your name as reference.</h5>
+                            <h5 className="mb-3 fs-6">To facilitate identification of your remittance, please quote your name as reference.</h5>
                             
                             <div className="Advice">
                                 <div className="Advice-Title">
