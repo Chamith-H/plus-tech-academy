@@ -45,7 +45,7 @@ function Header() {
             { togglerView && (
                 <motion.div className="Toggler-Menu-to-Mobiles d-flex justify-content-between d-block d-lg-none"
                   initial={{ height: 0 }}
-                  animate={{ height: '220px' }}>
+                  animate={{ height: '268px' }}>
                     <Navlinks press_Action={()=> setTogglerView(false)}></Navlinks>
                     <img src={TogglerBackground} alt="Background-Toggler" className='mt-4'/>
                 </motion.div>

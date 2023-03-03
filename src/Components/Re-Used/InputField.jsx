@@ -10,7 +10,10 @@ const InputField =( props )=> {
                 value={props.Value} 
                 disabled= {props.Disable}
                 placeholder={props.Placeholder} 
-                onChange={props.Entered}>
+                pattern={props.Pattern}
+                title={props.Validation}
+                onChange={props.Entered}
+                required={props.Required}>
             </input>
         </div>
     )

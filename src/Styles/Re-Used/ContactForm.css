@@ -104,3 +104,43 @@ form textarea::placeholder {
     width:22px;
     height:22px
 }
+
+.Submit-Status {
+    position: absolute;
+    background-color: rgba(0, 0, 0, 0.849);
+    bottom: 0px;
+    left:0px;
+    right: 0px;
+    border-bottom-left-radius: 6px;
+    border-bottom-right-radius: 6px;
+}
+
+.Status-Title {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+}
+
+.See-Status {
+    color: aliceblue;
+}
+
+.Close-Status {
+    display: flex;
+    justify-content: center;
+}
+
+.See-Status button {
+    padding-bottom: 4px;
+    padding-left: 45px;
+    padding-right: 45px;
+    border-style: none;
+    border-radius: 4px;
+    background-color:rgb(12,101,209);
+    color: rgb(255, 255, 255);
+}
+
+.See-Status img {
+    width: 25px;
+}
