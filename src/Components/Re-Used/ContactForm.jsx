@@ -7,6 +7,7 @@ import SubmitButton from "../Re-Used/SubmitButton"
 import AdminData from "../../Datasets/AdminData"
 import CorrectIcon from "../../Assets/Others/Correct.png"
 import ErrorIcon from "../../Assets/Others/Error.png"
+import emailjs from "emailjs-com"
 import { motion } from 'framer-motion';
 import { useState } from "react"
 
@@ -78,6 +79,25 @@ const ContactForm =( props )=> {
         }
 
         else {
+
+            const data = {
+                            to_name : '+Tech Academy',
+                            from_name : '+Tech Academy official website',
+                            title : 'A user needs some guidelines',
+                            name: contact.name,
+                            email: contact.email,
+                            phone: contact.phone,
+                            whatsapp: contact.whatsapp,
+                            message: contact.message
+                         }
+
+            emailjs.send('service_0lrppz2', 'template_8iytwxo', data, '9ahc4pb_cDrWIR6U-')
+            .then((result) => {
+                console.log(result.text)
+            }, (error) => {
+                console.log(error.text)
+            })
+
             setError(false)
         }
     }
