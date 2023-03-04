@@ -9,6 +9,10 @@ import SubmitButton from "../Re-Used/SubmitButton";
 import HoriontalScroller from "../Re-Used/HoriontalScroller";
 import AdminData from "../../Datasets/AdminData";
 import BackButton from "../Re-Used/BackButton";
+import CorrectIcon from "../../Assets/Others/Correct.png"
+import ErrorIcon from "../../Assets/Others/Error.png"
+import { motion } from 'framer-motion';
+import emailjs from "emailjs-com"
 
 function Course() {
 
@@ -31,6 +35,9 @@ function Course() {
                                                 payment:null
                                             })
 
+    const [submit, setSubmit] = useState(false)
+    const [error, setError] = useState(false)
+
     const inputs = [
         {
             id:1,
@@ -38,7 +45,7 @@ function Course() {
             label:'Course Title',
             type:'text',
             placeholder:'Your name',
-            disable:true
+            disable:true,
         },
 
         {
@@ -47,7 +54,10 @@ function Course() {
             label:'Name',
             type:'text',
             placeholder:'Your name',
-            disable:false
+            disable:false,
+            pattern:'^[a-zA-Z ]+$',
+            validation:'Name can only contain letters and spaces.',
+            required:true
         },
 
         {
@@ -56,7 +66,10 @@ function Course() {
             label:'Phone',
             type:'text',
             placeholder:'Your phone number',
-            disable:false
+            disable:false,
+            pattern : "0[0-9]{9}",
+            validation: "Eg : 0742833337",
+            required:true
         },
 
         {
@@ -65,7 +78,10 @@ function Course() {
             label:'Whatsapp',
             type:'text',
             placeholder:'Your whatsapp number',
-            disable:false
+            disable:false,
+            pattern : "0[0-9]{9}",
+            validation: "Eg : 0742833337",
+            required:true
         },
     ]
 
@@ -86,6 +102,37 @@ function Course() {
     useEffect(() => {
         window.scrollTo(0, 0);
     }, []);
+
+
+    const send_FormDATA =( event )=> {
+        event.preventDefault();
+        setSubmit(true);
+        
+        if(formData.payment == null) {
+            setError(true)
+            return
+        }
+
+        else {
+
+            const data = {
+                            course: formData.title,
+                            payment: formData.payment,
+                            name: formData.name,
+                            phone: formData.phone,
+                            whatsapp: formData.whatsapp,
+                         }
+
+            emailjs.send('service_0lrppz2', 'template_foylprx', data, '9ahc4pb_cDrWIR6U-')
+            .then((result) => {
+                console.log(result.text)
+            }, (error) => {
+                console.log(error.text)
+            })
+
+            setError(false)
+        }
+    }
 
     return (
         <div className="Course bg-white">
@@ -140,7 +187,7 @@ function Course() {
 
                 <div className="col-md-5 px-3 px-sm-4 px-lg-0">
                     <div className="Apply-Form px-3 pt-3 pb-4 mx-0 mx-sm-5 mx-md-0 mx-xl-2">
-                        <form action="">
+                        <form onSubmit={send_FormDATA}>
                             <div className="Apply-Course-Field">
 
                                  {inputs.map((field) => (
@@ -151,7 +198,10 @@ function Course() {
                                             Value={formData[field.name]}
                                             Placeholder={field.placeholder}
                                             Disable={field.disable}
-                                            Entered={(e)=> setFormData({...formData, [field.name]:e.target.value})}>
+                                            Entered={(e)=> setFormData({...formData, [field.name]:e.target.value})}
+                                            Pattern={field.pattern}
+                                            Validation={field.validation}
+                                            Required={field.required}>
                                         </InputField>
                                     </div>
                                  ))}
@@ -173,9 +223,49 @@ function Course() {
                             </div>
 
                             <div className="">
-                                <SubmitButton Title='REGISTER NOW'></SubmitButton>
+                                <SubmitButton Title='REGISTER NOW' Type="submit"></SubmitButton>
                             </div>
                         </form>
+
+                        {submit && (
+                            <motion.div className="Show-the-status"
+                                        initial={{ scale: 0.5, y:50 }}
+                                        animate={{ scale: 1, y:0 }}>
+                                    
+                                        
+                                <div className="Submit-Status">
+                                    {error && (
+                                        <div className="See-Status pt-3 pb-3">
+                                            <div className="Status-Title">
+                                                <img src={ErrorIcon} alt="error icon" />
+                                                <h6 className="pt-2 ps-2">Can't Register</h6>
+                                            </div>
+        
+                                            <p className="px-3 text-center">Please enter a payment plan to register</p>
+
+                                            <div className="Close-Status">
+                                                <button onClick={() => setSubmit(false)}>Try again</button>
+                                            </div>
+                                        </div>
+                                    )}
+
+                                    {!error && (
+                                        <div className="See-Status pt-3 pb-3">
+                                            <div className="Status-Title">
+                                                <img src={CorrectIcon} alt="error icon" />
+                                                <h6 className="pt-2 ps-2">Registered successfully</h6>
+                                            </div>
+        
+                                            <p className="px-3 text-center">One of our consultants will contact you shortly.</p>
+
+                                            <div className="Close-Status">
+                                                <button onClick={() => setSubmit(false)}>Ok Done</button>
+                                            </div>
+                                        </div>
+                                    )}
+                                </div>      
+                            </motion.div>
+                        )}
                     </div>
                 </div>
             </div>
