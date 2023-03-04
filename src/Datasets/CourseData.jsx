@@ -9,8 +9,8 @@ const CourseData = [
                 title:'CODING BASICS WITH SCRATCH',
                 level:'FOR KIDS',
                 introduction:'Learn to create own games, animations with, Programming concepts',
-                description:'',
-                join:'',
+                description:'Our Coding School is a child friendly, fun & easy learning environment dedicated for children to learn programming without any prior experience. Our learning process is designed to build the next generation tech creators with outstanding instructors because we strongly believe that effective training requires human assistance.',
+                join:'Children between 6 and 16 years old, Technology enthusiasts, Children who want to create their own technological projects, Those who have the motivation to take the course.',
                 duration:'',
                 method:'Online (Live)',
                 language:'Sinhala/English',
@@ -18,12 +18,15 @@ const CourseData = [
                 fee:5000,
                 contents:[
                     {
-                        contentTitle:'',
+                        contentTitle:'The objectives of this program',
+                        style:1,
+                        chunk:10,
                         lessons:[
-                            '',
-                            '',
-                            '',
-                            '',
+                            'Help children fall in love with computer science.',
+                            'Improve children’s creativity and focus.',
+                            'Develop problem-solving and critical thinking skills.',
+                            'Create animations, stories, and games with Scratch, Web Development.',
+                            'Learn the most needed digital skills with Microsoft Word, Powerpoint, Internet & Email.'
                         ]
                     }
                 ],
@@ -92,7 +95,7 @@ const CourseData = [
                 title:'WEB DEVELOPMENT',
                 level:'FOUNDATION',
                 introduction:'Build foundational web development skills with HTML, CSS, JAVASCRIPT',
-                description:'Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry"s standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. It has survived not only five centuries, but also the leap into electronic typesetting, remaining essentially unchanged. It was popularised in the 1960s with the release of Letraset sheets containing Lorem Ipsum passages, and more recently with desktop publishing software like Aldus PageMaker including versions of Lorem Ipsum.',
+                description:'Learn the most important web development basics to start building your own commercial web projects. You will get hands on experience to practice with the latest technologies to become a web developer and create websites with HTML, CSS. You will also learn the basics of JavaScript to make your pages interactive. This training is designed for absolute beginners. JOIN the training TODAY.',
                 join:'Above age 15, passionate about web development or software engineering, technology enthusiasts.',
                 duration:'8 - 12 weeks',
                 method:'Online (Live)',

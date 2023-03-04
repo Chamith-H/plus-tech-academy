@@ -57,6 +57,7 @@ function Home() {
                             'Affordable learning to be employment ready.'
                           ],
             action : 'Register',
+            go :'/learners'
         },
 
         {
@@ -68,7 +69,8 @@ function Home() {
                             'Transform your employees with digital skills.',
                             'Contribute to fill the gap between academia & industry.'
                           ],
-            action : 'Collaborate'
+            action : 'Collaborate',
+            go :'/enterprises'
         },
 
         {
@@ -80,7 +82,8 @@ function Home() {
                             'Manage your time towards a well-balanced life.',
                             'Make an impact.'
                           ],
-            action : 'Apply'
+            action : 'Apply',
+            go :'/educators'
         },
     ]
 
@@ -151,7 +154,8 @@ function Home() {
                                     Title={benefit.title} 
                                     List={benefit.benefitList}
                                     Action={true}
-                                    Wanted={benefit.action}>
+                                    Wanted={benefit.action}
+                                    Get_Action={() => navigate(benefit.go)}>
                                 </BulletList>
                             </div>
                         </div>
@@ -175,7 +179,8 @@ function Home() {
                                                 Title={benefit.title} 
                                                 List={benefit.benefitList}
                                                 Action={true}
-                                                Wanted={benefit.action}>
+                                                Wanted={benefit.action}
+                                                Get_Action={() => navigate(benefit.go)}>
                                             </BulletList>
                                         </div>
                                     )}

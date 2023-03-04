@@ -1,0 +1,42 @@
+.Animater {
+    z-index: 5000;
+    top: 0px;
+    left:0px;
+    right: 0px;
+    bottom: 0px;
+    background-image: url("../../Assets/Others/AnimaterBackground.jpg");
+    background-size: cover;
+    position: absolute;
+}
+
+.Align-Animater {
+    background-color: rgba(0, 0, 0, 0.849);
+    position: absolute;
+    top: 0px;
+    left:0px;
+    right: 0px;
+    bottom: 0px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+
+.Animation-Seperator {
+    border-top-style: solid;
+    border-width: 1px;
+    border-color: rgba(255, 255, 255, 0.493);
+    width: 100%;
+}
+
+.Animater-Logo img {
+    width: 100%;
+}
+
+.Animater-Title h1 {
+    color: rgba(255, 255, 255, 0.904);
+}
+
+.Animater-Title span {
+    color: rgb(8,207,226);
+}
