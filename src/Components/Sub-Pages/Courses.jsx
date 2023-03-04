@@ -137,7 +137,7 @@ function Course() {
     return (
         <div className="Course bg-white">
 
-            <div className="Back-to-Courses">
+            <div className="Back-to-Courses BackAction">
                 <BackButton Title='Back to the courses'></BackButton>
             </div>
 

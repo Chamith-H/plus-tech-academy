@@ -29,7 +29,7 @@ const Mentor =()=> {
     return (
         <div className="MentorPage">
 
-            <div className="position-fixed">
+            <div className="position-fixed BackAction">
                 <BackButton Title='Bak to Educators'></BackButton>
             </div>
 

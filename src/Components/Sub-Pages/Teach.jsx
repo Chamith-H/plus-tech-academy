@@ -36,7 +36,7 @@ const Teach =()=> {
     return (
         <div className="TeachPage">
 
-            <div className="position-fixed">
+            <div className="position-fixed BackAction">
                 <BackButton Title='Bak to Educators'></BackButton>
             </div>
 

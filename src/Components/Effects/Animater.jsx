@@ -1,12 +1,21 @@
-import React from 'react';
+import React, {useState, useEffect} from 'react';
 import "../../Styles/Effects/Animater.css"
 import Logo from "../../Assets/Header/Logo.png"
 import { motion } from 'framer-motion';
 
 const Animater = ( props ) => {
+
+    const [animation, setAnimation] = useState(false)
+
+    useEffect(() => {
+        setAnimation(true)  
+    }, []);
+
   return (
     <div className="Animater">
-        <div className="Align-Animater">
+        {animation && (
+            <div className="Align-Animater">
+
             <motion.div className="Animater-Logo col-7 col-sm-6 col-md-5 col-lg-4 col-xl-3"
                 initial={{ x: -200 }}
                 animate={{ x: 0 , transition: { duration: 0.5 }}}>
@@ -28,6 +37,7 @@ const Animater = ( props ) => {
                 </div>
             )}
         </div>
+        )}
     </div>
   );
 };

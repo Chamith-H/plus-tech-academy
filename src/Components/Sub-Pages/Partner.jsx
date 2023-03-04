@@ -33,7 +33,7 @@ const Partner =()=> {
     return (
         <div className="PartnerPage">
 
-            <div className="position-fixed">
+            <div className="position-fixed BackAction">
                 <BackButton Title='Bak to Educators'></BackButton>
             </div>
 

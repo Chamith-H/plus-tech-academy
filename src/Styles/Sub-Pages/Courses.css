@@ -158,6 +158,10 @@
     width: 25px;
 }
 
+.BackAction {
+    z-index: 9999;
+}
+
 @media only screen and (min-width: 0px) and (max-width: 768px) {
     .Payment-Instructions {
         border-left-style: none;
