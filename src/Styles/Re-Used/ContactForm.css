@@ -59,6 +59,12 @@
     color: rgb(109, 109, 109);
 }
 
+.Align-Contact-Description {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+}
+
 .ContactForm form textarea {
     font-size: 15px;
     padding-top: 4px;
@@ -147,4 +153,10 @@ form textarea::placeholder {
 
 .See-Status img {
     width: 25px;
+}
+
+@media only screen and (min-width: 768px) and (max-width: 992px) {
+    .Contact-Image img {
+        width:80%;
+    }
 }

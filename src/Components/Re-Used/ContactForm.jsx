@@ -108,10 +108,10 @@ const ContactForm =( props )=> {
                 <div className="Align-Contact-Box py-3 py-sm-4 py-md-5 px-2 px-sm-4 px-md-5">
                     <div className="Contact-Box">
                         <div className="row g-0 py-3 py-lg-4">
-                            <div className="col-12 col-md-6 px-3">
-                                <div className="Contact-Title mt-4">
+                            <div className="col-12 col-md-6 px-3 Align-Contact-Description">
+                                <div className="Contact-Title mt-4 mt-md-0 mt-lg-3">
                                     <h4 className="fs-3">DIFFICULT TO <span>DECIDE</span>..?</h4>
-                                    <p className="pt-2 Sub-Title fs-6">{props.SubTitle}<br></br><span>{props.Sub}</span></p>
+                                    <p className="pt-2 Sub-Title fs-6 px-3">{props.SubTitle}<br></br><span>{props.Sub}</span></p>
                                 </div>
 
                                 <div className="Contact-Image py-3 d-none d-md-flex">
