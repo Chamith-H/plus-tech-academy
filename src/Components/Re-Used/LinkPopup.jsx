@@ -27,7 +27,7 @@ const LinkPopup =( props )=> {
                                     <div>
                                         {_to.show && (<h6 className="pt-4">{_to.begin}</h6>)}
                                         {_to.seperate && (<h6>&nbsp;</h6>)}
-                                        <li><a href={ _to.link }>{ _to.name }</a></li>
+                                        <li><a href={ _to.link } target="_blank">{ _to.name }</a></li>
                                     </div>
                                     
                                 ))}

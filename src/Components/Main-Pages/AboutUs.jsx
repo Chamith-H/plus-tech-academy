@@ -37,31 +37,19 @@ function AboutUs() {
         {
             id:1,
             name :'Solution for LEARNERS',
-            link:''
+            link:'#/learners'
         },
 
         {
             id:2,
             name :'Solution for EDUCATORS ',
-            link:''
+            link:'#/educators'
         },
 
         {
             id:3,
             name :'Solution for ENTERPRISES',
-            link:''
-        },
-
-        {
-            id:4,
-            name :'Solution to find JOBS',
-            link:''
-        },
-
-        {
-            id:5,
-            name :'Solution for LEARNERS',
-            link:'Solution to learn FREE'
+            link:'#/enterprises'
         },
     ]
 
@@ -225,10 +213,6 @@ function AboutUs() {
                     ))}
                 </div>
             </div>
-
-                <div className="Contact-About-Box pt-3 pb-2 px-4">
-                    <h6>Got questions? : <span>Feel free to contact us.</span> ( Phone/WhatsApp <strong>0742833337</strong> )</h6>
-                </div>
         </div>
     );
 }

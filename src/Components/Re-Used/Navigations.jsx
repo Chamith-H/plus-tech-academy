@@ -7,7 +7,7 @@ const Navlinks =( props )=> {
                 <li><a href="#/learners" onClick={props.press_Action}>Learners</a></li>
                 <li><a href="#/educators" onClick={props.press_Action}>Educators</a></li>
                 <li><a href="#/enterprises" onClick={props.press_Action}>Enterprises</a></li>
-                <li><a href="#/" onClick={props.press_Action}>Talent Pool</a></li>
+                {/* <li><a href="#/" onClick={props.press_Action}>Talent Pool</a></li> */}
                 <li><a href="#/about" onClick={props.press_Action}>About Us</a></li>
             </ul>
         </div>

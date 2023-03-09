@@ -102,7 +102,7 @@ function Home() {
         {
             image : PayIcon,
             alt : 'Get payment icon',
-            description : 'Make your passion pay'
+            description : 'Make your passion pay.'
         },
     ]
 
@@ -124,7 +124,7 @@ function Home() {
                         <div className="col-12 col-sm-8 col-md-7">
                             <div className="Banner-Contents pb-3 py-sm-0">
                                 { contents.map( (content) => (
-                                    <div className="Single-Content my-1 my-sm-3 ms-0 ms-sm-4">
+                                    <div className="Single-Content my-1 my-sm-3 ms-0 ms-sm-4" type="button" onClick={content.function}>
                                         <div className="Content-Box">
                                             <div className="Content-Details">
                                                 <div className="Content me-3">
@@ -132,7 +132,7 @@ function Home() {
                                                     <h6>{content.description}</h6>
                                                 </div>
 
-                                                <img className="Show-More-Button" type="button" onClick={content.function} src={ButtonCircle} alt="Button" />
+                                                <img className="Show-More-Button" type="button" src={ButtonCircle} alt="Button" />
                                             </div>
                                         </div>
                                     </div>
@@ -192,7 +192,7 @@ function Home() {
             </div>
 
             <div className="Our-Role my-5 pt-3 pb-2">
-                <h5 className="pb-3 pb-md-5 pt-2 mx-4 fs-3">WHAT DO <span>WE DO</span> TRIPICALLY OTHERS WON'T DO (OR PERHAPS THEY CAN'T)</h5>
+                <h5 className="pb-3 pb-md-5 pt-2 mx-4 fs-3">WHAT DO <span>WE DO</span> TYPICALLY OTHERS WON'T DO (OR PERHAPS THEY CAN'T)</h5>
 
                 <div className="row g-0 px-5">
                     { roles.map((role) => (

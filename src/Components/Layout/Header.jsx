@@ -34,9 +34,9 @@ function Header() {
                 <img src={Toggler} alt="Toggler Icon" type="button" onClick={() => setTogglerView(!togglerView)} />
             </div>
 
-            <div className="Brand ps-0 ps-lg-3">
-                <img src={BrandLogo} alt="Company Logo" />
-            </div>
+            <a className="Brand ps-0 ps-lg-3" href='#/'>
+                <img type="button" src={BrandLogo} alt="Company Logo" />
+            </a>
         </div>
 
         <div className="Page-Handlers">
@@ -45,13 +45,13 @@ function Header() {
             { togglerView && (
                 <motion.div className="Toggler-Menu-to-Mobiles d-flex justify-content-between d-block d-lg-none"
                   initial={{ height: 0 }}
-                  animate={{ height: '268px' }}>
+                  animate={{ height: '230px' }}>
                     <Navlinks press_Action={()=> setTogglerView(false)}></Navlinks>
                     <img src={TogglerBackground} alt="Background-Toggler" className='mt-4'/>
                 </motion.div>
             )}
 
-          <button id="Sign-Btn" className="me-2 me-lg-3">Sign in</button>
+          <button id="Sign-Btn" className="me-2 me-lg-3 d-none">Sign in</button>
         </div>
       </div>
     );

@@ -30,6 +30,7 @@ function Course() {
     const[formData, setFormData] = useState ({
                                                 title:courseName,
                                                 name:'',
+                                                email:'',
                                                 phone:'',
                                                 whatsapp:'',
                                                 payment:null
@@ -61,13 +62,23 @@ function Course() {
         },
 
         {
+            id:2,
+            name:'email',
+            label:'Email',
+            type:'email',
+            placeholder:'Your name',
+            disable:false,
+            required:false
+        },
+
+        {
             id:3,
             name:'phone',
             label:'Phone',
             type:'text',
             placeholder:'Your phone number',
             disable:false,
-            pattern : "0[0-9]{9}",
+            pattern : "^(0[0-9]{9}|[1-9][0-9]{8})$",
             validation: "Eg : 0742833337",
             required:true
         },
@@ -79,7 +90,7 @@ function Course() {
             type:'text',
             placeholder:'Your whatsapp number',
             disable:false,
-            pattern : "0[0-9]{9}",
+            pattern : "^(0[0-9]{9}|[1-9][0-9]{8})$",
             validation: "Eg : 0742833337",
             required:true
         },
@@ -118,6 +129,7 @@ function Course() {
             const data = {
                             course: formData.title,
                             payment: formData.payment,
+                            email: formData.email,
                             name: formData.name,
                             phone: formData.phone,
                             whatsapp: formData.whatsapp,

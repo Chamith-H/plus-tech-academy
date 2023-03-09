@@ -52,7 +52,7 @@ const ContactForm =( props )=> {
             label:'Phone',
             type:'text',
             placeholder:'Your phone number',
-            pattern : "0[0-9]{9}",
+            pattern : "^(0[0-9]{9}|[1-9][0-9]{8})$",
             validation: "Eg : 0742833337",
             required:false
         },
@@ -63,7 +63,7 @@ const ContactForm =( props )=> {
             label:'Whatsapp',
             type:'text',
             placeholder:'Your whatsapp number',
-            pattern : "0[0-9]{9}",
+            pattern : "^(0[0-9]{9}|[1-9][0-9]{8})$",
             validation: "Eg : 0742833337",
             required:false
         },
@@ -110,7 +110,7 @@ const ContactForm =( props )=> {
                         <div className="row g-0 py-3 py-lg-4">
                             <div className="col-12 col-md-6 px-3">
                                 <div className="Contact-Title mt-4">
-                                    <h4 className="fs-3">DIFFICULT TO <span>DESIDE</span>..?</h4>
+                                    <h4 className="fs-3">DIFFICULT TO <span>DECIDE</span>..?</h4>
                                     <p className="pt-2 Sub-Title fs-6">{props.SubTitle}<br></br><span>{props.Sub}</span></p>
                                 </div>
 
@@ -122,17 +122,17 @@ const ContactForm =( props )=> {
                                     <p>{props.ContactTitle}</p>
 
                                     <div className="Contact-Call">
-                                        <div className="Call">
+                                        <a className="Call" href="tel:+94742833337">
                                             <img src={ CallIcon } alt="" />
                                             <p>{AdminData.call}</p>
-                                        </div>
+                                        </a>
 
                                         <p className="px-sm-3">|</p>
 
-                                        <div className="Call">
+                                        <a className="Call" href="https://api.whatsapp.com/send/?phone=%2B94742833337&text&app_absent=0" target="_blank">
                                             <img src={ WhatsappIcon } alt="" />
                                             <p>{AdminData.whatsapp}</p>
-                                        </div>
+                                        </a>
                                     </div>
                                 </div>
                             </div>
@@ -222,17 +222,17 @@ const ContactForm =( props )=> {
                                     <p>{props.ContactTitle}</p>
                                 
                                     <div className="Contact-Call">
-                                        <div className="Call">
+                                        <a className="Call" href="tel:+94742833337">
                                             <img src={ CallIcon } alt="" />
                                             <p>{AdminData.call}</p>
-                                        </div>
+                                        </a>
 
                                         <p className="px-2">|</p>
 
-                                        <div className="Call">
+                                        <a className="Call" href="https://api.whatsapp.com/send/?phone=%2B94742833337&text&app_absent=0" target="_blank">
                                             <img src={ WhatsappIcon } alt="" />
                                             <p>{AdminData.whatsapp}</p>
-                                        </div>
+                                        </a>
                                     </div>
                                 </div>
                            </div>

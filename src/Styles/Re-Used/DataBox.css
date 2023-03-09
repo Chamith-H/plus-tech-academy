@@ -19,6 +19,7 @@
 }
 
 .Data-Title h4 {
+    position: relative;
     font-size: 13px;
     text-align: center;
     background-color:rgb(208, 239, 255);
@@ -29,6 +30,12 @@
     font-size: 13px;
     text-align: center;
     color: rgb(71, 71, 71);
+}
+
+.Next-go {
+    position: absolute;
+    height: 16px;
+    right: 4px;
 }
 
 @media only screen and (min-width: 0px) and (max-width: 576px) {

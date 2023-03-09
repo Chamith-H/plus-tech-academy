@@ -26,15 +26,15 @@ function Footer() {
                       <div className="Footer-Content-Contact ps-sm-5 ps-md-3 ps-lg-5">
                           <h4 className="mt-lg-3">GET IN TOUCH</h4>
 
-                          <div className="Footer-Contact">
+                          <a className="Footer-Contact" href="tel:+94742833337">
                               <img src={CallIcon} alt="Phone number" />
                               <p>(+94) {AdminData.call}</p>
-                          </div>
+                          </a>
 
-                          <div className="Footer-Contact">
+                          <a className="Footer-Contact" href="https://api.whatsapp.com/send/?phone=%2B94742833337&text&app_absent=0" target="_blank">
                               <img src={WhatsappIcon} alt="Whatsapp number" />
                               <p>(+94) {AdminData.whatsapp}</p>
-                          </div>
+                          </a>
                       </div>
                   </div>
               </div>
