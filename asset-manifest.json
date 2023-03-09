@@ -1,7 +1,7 @@
 {
   "files": {
-    "main.css": "/plus-tech-academy/static/css/main.fe60e71d.css",
-    "main.js": "/plus-tech-academy/static/js/main.4bf3bc10.js",
+    "main.css": "/plus-tech-academy/static/css/main.abfb9f90.css",
+    "main.js": "/plus-tech-academy/static/js/main.d09abe4e.js",
     "static/js/787.3838c8ef.chunk.js": "/plus-tech-academy/static/js/787.3838c8ef.chunk.js",
     "static/media/Enterprises.png": "/plus-tech-academy/static/media/Enterprises.845b33090367953aaaa7.png",
     "static/media/Belief.png": "/plus-tech-academy/static/media/Belief.8f10e33b9d9a524f23a5.png",
@@ -23,6 +23,7 @@
     "static/media/Partners.png": "/plus-tech-academy/static/media/Partners.f48be8645d646127bcae.png",
     "static/media/bootstrap-icons.woff2?": "/plus-tech-academy/static/media/bootstrap-icons.b2e5aab643c6f0fd2da6.woff2",
     "static/media/Vision_L.png": "/plus-tech-academy/static/media/Vision_L.13979c0598ea8dd722d9.png",
+    "static/media/Next.png": "/plus-tech-academy/static/media/Next.c6467fd05252b58fdf27.png",
     "static/media/EducatorSubPages.jpg": "/plus-tech-academy/static/media/EducatorSubPages.33da536f494a2bde5273.jpg",
     "static/media/Vision.png": "/plus-tech-academy/static/media/Vision.e958140af8358798c900.png",
     "static/media/Toggler-Background.png": "/plus-tech-academy/static/media/Toggler-Background.35b95de5bdfd8fb1e978.png",
@@ -36,12 +37,12 @@
     "static/media/Call.png": "/plus-tech-academy/static/media/Call.6d762e082919dc440d32.png",
     "static/media/Button-Circle.png": "/plus-tech-academy/static/media/Button-Circle.38ae1876b404cf9148ea.png",
     "index.html": "/plus-tech-academy/index.html",
-    "main.fe60e71d.css.map": "/plus-tech-academy/static/css/main.fe60e71d.css.map",
-    "main.4bf3bc10.js.map": "/plus-tech-academy/static/js/main.4bf3bc10.js.map",
+    "main.abfb9f90.css.map": "/plus-tech-academy/static/css/main.abfb9f90.css.map",
+    "main.d09abe4e.js.map": "/plus-tech-academy/static/js/main.d09abe4e.js.map",
     "787.3838c8ef.chunk.js.map": "/plus-tech-academy/static/js/787.3838c8ef.chunk.js.map"
   },
   "entrypoints": [
-    "static/css/main.fe60e71d.css",
-    "static/js/main.4bf3bc10.js"
+    "static/css/main.abfb9f90.css",
+    "static/js/main.d09abe4e.js"
   ]
 }
