@@ -11,6 +11,7 @@ import AdminData from "../../Datasets/AdminData";
 import BackButton from "../Re-Used/BackButton";
 import CorrectIcon from "../../Assets/Others/Correct.png"
 import ErrorIcon from "../../Assets/Others/Error.png"
+import PDF_Icon from "../../Assets/Others/pdf.png"
 import { motion } from 'framer-motion';
 import emailjs from "emailjs-com"
 
@@ -129,6 +130,7 @@ function Course() {
             const data = {
                             course: formData.title,
                             payment: formData.payment,
+                            price: dataSet.fee,
                             email: formData.email,
                             name: formData.name,
                             phone: formData.phone,
@@ -141,6 +143,8 @@ function Course() {
             }, (error) => {
                 console.log(error.text)
             })
+
+            console.log(data)
 
             setError(false)
         }
@@ -282,7 +286,7 @@ function Course() {
                 </div>
             </div>
 
-            <div className="Payments px-3 px-sm-5 px-md-4 px-lg-5 pt-4 pb-2 my-5">
+            <div className="Payments px-3 px-sm-5 px-md-4 px-lg-5 pt-4 pb-2 mt-5">
                 <div className="row g-0">
                     <div className="col-12 col-md-5 col-lg-4 d-flex align-items-center">
                         <div className="Bank-Details mt-1 mb-3 my-sm-4 my-md-0">
@@ -321,7 +325,15 @@ function Course() {
                 </div>
             </div>
 
-            <div className="Selected-Course-Contents px-3 px-sm-4 px-lg-5">
+            <div className="d-flex justify-content-center py-4 py-md-5 bg-light">
+                <div className="Course-Pdf col-11 col-sm-10 col-md-9 pt-4 pb-2">
+                    <h5>Download the course content</h5>
+                    <img src={PDF_Icon} alt="PDF icon" />
+                    <p>{formData.title}.pdf</p>
+                </div>
+            </div>
+
+            {/* <div className="Selected-Course-Contents px-3 px-sm-4 px-lg-5">
                 {courseContents.map((content) => (
                     <HoriontalScroller 
                         Title={content.contentTitle} 
@@ -330,7 +342,7 @@ function Course() {
                         Chunk={content.chunk}>
                     </HoriontalScroller>
                 ))}
-            </div>
+            </div> */}
         </div>
     )
     

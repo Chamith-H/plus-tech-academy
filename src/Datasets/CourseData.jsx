@@ -36,7 +36,7 @@ const CourseData = [
                 id: 2,
                 title:'WEB DEVELOPMENT',
                 level:'FOR KIDS',
-                introduction:'Learn how internet works with web pages.',
+                introduction:'Learn how internet works with web pages',
                 description:'',
                 join:'',
                 duration:'',
@@ -88,7 +88,7 @@ const CourseData = [
 
     {
         category_ID: 2,
-        category_Name: 'CODING',
+        category_Name: 'DEVELOPMENT',
         courses : [
             {   
                 id:1,

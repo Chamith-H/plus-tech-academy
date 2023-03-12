@@ -11,6 +11,21 @@
     color: rgb(0, 0, 0);
 }
 
+.Single-Member {
+    box-shadow: 0px 12px 24px 0px #00000057;
+    text-align: center;
+    border-radius: 7px;
+}
+
+.Single-Member img{
+    width: 100%;
+}
+
+.Our-Team h5{
+    
+    color: rgb(0, 37, 160);
+}
+
 .Our-Belief {
     border-bottom-style: solid;
     border-width: 1px;

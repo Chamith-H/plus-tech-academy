@@ -8,11 +8,56 @@ import ContactForm from "../Re-Used/ContactForm";
 import BeliefImage from "../../Assets/Others/Belief.png"
 import { useEffect } from "react";
 
+import One from "../../Assets/Team/1.png"
+import Two from "../../Assets/Team/2.jpg"
+import Three from "../../Assets/Team/3.jpeg"
+import four from "../../Assets/Team/4.jpg"
+import five from "../../Assets/Team/5.jpeg"
+import six from "../../Assets/Team/6.jpg"
+
 function AboutUs() {
+
+    const members = [
+        {
+            name:'Member name',
+            profession:'Member profession',
+            pic:One
+        },
+
+        {
+            name:'Member name',
+            profession:'Member profession',
+            pic:Two
+        },
+
+        {
+            name:'Member name',
+            profession:'Member profession',
+            pic:Three
+        },
+
+        {
+            name:'Member name',
+            profession:'Member profession',
+            pic:four
+        },
+
+        {
+            name:'Member name',
+            profession:'Member profession',
+            pic:five
+        },
+
+        {
+            name:'Member name',
+            profession:'Member profession',
+            pic:six
+        },
+    ]
 
     const belief = [
         'We believe in learning more than homework, certificates & competition.',
-        'Tech industry is growing faster than any other industry and not shrinking. (i.e +Tech: TravelTech, AgTech, FinTech, EdTech, MedTech, eSports, eInvestment etc)',
+        'Tech industry is growing faster than any other industry and not shrinking. (i.e +Tech: TravelTech, AgTech, FinTech, EdTech, MedTech, eSports, eInvestment etc).',
         'Vocational education systems should change to prepare everyone to thrive in a complex world.',
         'No one should be excluded from education because of financial constraints.',
         'Our students can enrich their lives with a career in tech.'
@@ -144,6 +189,22 @@ function AboutUs() {
                 <div className="About-Selection pt-3 pb-2 px-3">
                     <h6><strong>What..? :</strong> <span>Accelerated skill training for employability, connect opportunities to earn, share knowledge for everyone’s success.</span></h6>
                     <h6><strong>Who we serve..? :</strong> <span>Anyone lacking guidance to build future ready digital skills.</span></h6>
+                </div>
+
+                <div className="Our-Team py-4">
+                    <h5 className="ps-4">Our Members</h5>
+
+                    <div className="row g-0 pt-3 px-3 px-sm-4">
+                        {members.map((member) => (
+                            <div className="col-6 col-md-4 col-lg-3 col-xl-2 px-2">
+                                <div className="Single-Member pt-1">
+                                    <h6 className="ps-2">{member.name}</h6>
+                                    <img src={member.pic} alt="Member pic" />
+                                    <p className="mt-1 pb-2">{member.profession}</p>
+                                </div>
+                            </div>
+                        ))}
+                    </div>
                 </div>
 
                 <div className="Our-Belief pt-3 pt-sm-4 pb-sm-3 px-2 p-sm-4 px-md-5">

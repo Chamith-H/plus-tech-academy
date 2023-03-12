@@ -162,6 +162,23 @@
     z-index: 9999;
 }
 
+.Course-Pdf {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    border-style: solid;
+    border-width: 2px;
+    border-radius: 7px;
+    border-color: rgba(0, 69, 172, 0.411);
+    background-color: rgb(255, 255, 255);
+    box-shadow: 0px 15px 25px 0px #00000069;
+}
+
+.Course-Pdf img{
+    height: 100px;
+    width: 85px;
+}
+
 @media only screen and (min-width: 0px) and (max-width: 768px) {
     .Payment-Instructions {
         border-left-style: none;
