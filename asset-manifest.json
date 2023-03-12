@@ -1,6 +1,6 @@
 {
   "files": {
-    "main.css": "/plus-tech-academy/static/css/main.d48ad911.css",
+    "main.css": "/plus-tech-academy/static/css/main.31dc329b.css",
     "main.js": "/plus-tech-academy/static/js/main.45ed9043.js",
     "static/js/787.3838c8ef.chunk.js": "/plus-tech-academy/static/js/787.3838c8ef.chunk.js",
     "static/media/Enterprises.png": "/plus-tech-academy/static/media/Enterprises.845b33090367953aaaa7.png",
@@ -42,12 +42,12 @@
     "static/media/Call.png": "/plus-tech-academy/static/media/Call.6d762e082919dc440d32.png",
     "static/media/Button-Circle.png": "/plus-tech-academy/static/media/Button-Circle.38ae1876b404cf9148ea.png",
     "index.html": "/plus-tech-academy/index.html",
-    "main.d48ad911.css.map": "/plus-tech-academy/static/css/main.d48ad911.css.map",
+    "main.31dc329b.css.map": "/plus-tech-academy/static/css/main.31dc329b.css.map",
     "main.45ed9043.js.map": "/plus-tech-academy/static/js/main.45ed9043.js.map",
     "787.3838c8ef.chunk.js.map": "/plus-tech-academy/static/js/787.3838c8ef.chunk.js.map"
   },
   "entrypoints": [
-    "static/css/main.d48ad911.css",
+    "static/css/main.31dc329b.css",
     "static/js/main.45ed9043.js"
   ]
 }
