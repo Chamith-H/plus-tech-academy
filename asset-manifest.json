@@ -1,7 +1,7 @@
 {
   "files": {
-    "main.css": "/plus-tech-academy/static/css/main.abfb9f90.css",
-    "main.js": "/plus-tech-academy/static/js/main.d09abe4e.js",
+    "main.css": "/plus-tech-academy/static/css/main.d48ad911.css",
+    "main.js": "/plus-tech-academy/static/js/main.45ed9043.js",
     "static/js/787.3838c8ef.chunk.js": "/plus-tech-academy/static/js/787.3838c8ef.chunk.js",
     "static/media/Enterprises.png": "/plus-tech-academy/static/media/Enterprises.845b33090367953aaaa7.png",
     "static/media/Belief.png": "/plus-tech-academy/static/media/Belief.8f10e33b9d9a524f23a5.png",
@@ -10,23 +10,28 @@
     "static/media/Banner-Background.jpg": "/plus-tech-academy/static/media/Banner-Background.d84532377b1bf988174a.jpg",
     "static/media/Contact-Background.jpg": "/plus-tech-academy/static/media/Contact-Background.1f0d3880621e35b1d449.jpg",
     "static/media/AnimaterBackground.jpg": "/plus-tech-academy/static/media/AnimaterBackground.8a397d317c8f79cd30b8.jpg",
+    "static/media/1.png": "/plus-tech-academy/static/media/1.bb2f0336192f6e77fb4c.png",
     "static/media/Enroll.png": "/plus-tech-academy/static/media/Enroll.e87146423c1b2647e2f9.png",
     "static/media/Whatsapp.png": "/plus-tech-academy/static/media/Whatsapp.149c09a9fdcfc94bfea3.png",
     "static/media/Jobs-Icon.png": "/plus-tech-academy/static/media/Jobs-Icon.fd78028321da8e3a4641.png",
     "static/media/Guidence.png": "/plus-tech-academy/static/media/Guidence.2121f684de1191d9bd15.png",
     "static/media/Error.png": "/plus-tech-academy/static/media/Error.a012d5615fb30063f106.png",
+    "static/media/2.jpg": "/plus-tech-academy/static/media/2.0a017aab55d0a0a8c07b.jpg",
     "static/media/Correct.png": "/plus-tech-academy/static/media/Correct.8a84d4a7ece0de150627.png",
     "static/media/Background.jpg": "/plus-tech-academy/static/media/Background.46667db05cf9470fbc74.jpg",
     "static/media/Partner.png": "/plus-tech-academy/static/media/Partner.bc4078cee5fc647f631d.png",
     "static/media/bootstrap-icons.woff?": "/plus-tech-academy/static/media/bootstrap-icons.6959d0d983ee318f8880.woff",
     "static/media/Digital-Icon.png": "/plus-tech-academy/static/media/Digital-Icon.544ee64f0bf0ed7a5377.png",
+    "static/media/4.jpg": "/plus-tech-academy/static/media/4.8e16cd343be5c365bc66.jpg",
     "static/media/Partners.png": "/plus-tech-academy/static/media/Partners.f48be8645d646127bcae.png",
     "static/media/bootstrap-icons.woff2?": "/plus-tech-academy/static/media/bootstrap-icons.b2e5aab643c6f0fd2da6.woff2",
+    "static/media/5.jpeg": "/plus-tech-academy/static/media/5.d51822e13bf837b440f4.jpeg",
     "static/media/Vision_L.png": "/plus-tech-academy/static/media/Vision_L.13979c0598ea8dd722d9.png",
     "static/media/Next.png": "/plus-tech-academy/static/media/Next.c6467fd05252b58fdf27.png",
     "static/media/EducatorSubPages.jpg": "/plus-tech-academy/static/media/EducatorSubPages.33da536f494a2bde5273.jpg",
     "static/media/Vision.png": "/plus-tech-academy/static/media/Vision.e958140af8358798c900.png",
     "static/media/Toggler-Background.png": "/plus-tech-academy/static/media/Toggler-Background.35b95de5bdfd8fb1e978.png",
+    "static/media/6.jpg": "/plus-tech-academy/static/media/6.5b1b6807b4db1fe14cfc.jpg",
     "static/media/FeatureBackground.jpg": "/plus-tech-academy/static/media/FeatureBackground.c7fd09999640dcfa16dc.jpg",
     "static/media/Logo.png": "/plus-tech-academy/static/media/Logo.e81dd537acf01f00258e.png",
     "static/media/Pay-Icon.png": "/plus-tech-academy/static/media/Pay-Icon.e114c3f0da6033f93e7a.png",
@@ -37,12 +42,12 @@
     "static/media/Call.png": "/plus-tech-academy/static/media/Call.6d762e082919dc440d32.png",
     "static/media/Button-Circle.png": "/plus-tech-academy/static/media/Button-Circle.38ae1876b404cf9148ea.png",
     "index.html": "/plus-tech-academy/index.html",
-    "main.abfb9f90.css.map": "/plus-tech-academy/static/css/main.abfb9f90.css.map",
-    "main.d09abe4e.js.map": "/plus-tech-academy/static/js/main.d09abe4e.js.map",
+    "main.d48ad911.css.map": "/plus-tech-academy/static/css/main.d48ad911.css.map",
+    "main.45ed9043.js.map": "/plus-tech-academy/static/js/main.45ed9043.js.map",
     "787.3838c8ef.chunk.js.map": "/plus-tech-academy/static/js/787.3838c8ef.chunk.js.map"
   },
   "entrypoints": [
-    "static/css/main.abfb9f90.css",
-    "static/js/main.d09abe4e.js"
+    "static/css/main.d48ad911.css",
+    "static/js/main.45ed9043.js"
   ]
 }
