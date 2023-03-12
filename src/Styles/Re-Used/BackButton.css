@@ -1,7 +1,7 @@
 .BackButton button{
     border-style: none;
     background: linear-gradient(to right, rgb(0, 84, 187), rgb(19,115,205));
-    box-shadow: 1px 1px 1px 1px #00000094;
+    box-shadow: 0px 10px 20px 0px #00000086;
     border-bottom-right-radius: 4px;
     color: rgb(255, 255, 255);
     display: flex;
