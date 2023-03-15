@@ -96,7 +96,7 @@ function Enterprises() {
               <div className="col-12 col-md-8 Enroll-Contents">
                   <div className="Why-Enroll mx-2 mx-sm-4 mb-4 mx-sm-5 mb-sm-5 mx-md-0 mb-md-0 ps-sm-4 ps-md-3 pt-md-4 bg-white">
                         <BulletList Title={benifits.title} List={benifits.benifitList} Visible={false}></BulletList>
-                        <div className="d-none d-lg-block pe-4">
+                        <div className="d-none d-lg-flex align-items-center pe-4">
                             <img src={EnterprisesImage} alt="Enroll-Image"/>
                         </div>
                   </div>

@@ -305,7 +305,19 @@ const CourseData = [
                 title:'SOFTWARE ENGINEERING',
                 level:'FOUNDATION',
                 introduction:'Best for developers to sharpen their engineering mindset',
-                description:'',
+                description:'The Software Engineering Career LaunchPad training is designed to improve knowledge in multiple programming languages as well as both front and back-end development. You’ll work through coding projects and exercises similar to the work that software engineers do daily.Your instructor will help you build your skills faster and advance your professional growth.',
+                cover: {
+                            aim:'WHAT WE',
+                            target:'COVER',
+                            pre:'Web Development Foundation OR Web Development - Full Stack.',
+                            list: [
+                                    'Object-Oriented Programming with Java',
+                                    'Database Management Systems with MSSQL',
+                                    'Graphical User Interface Application Development with C#.Net',
+                                    'RESTful API Development with ASP.Net & EF Core'
+                                  ] 
+                       },
+
                 join:'',
                 duration:'',
                 method:'',

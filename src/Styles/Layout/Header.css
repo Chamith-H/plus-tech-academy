@@ -3,6 +3,7 @@
     justify-content: space-between;
     background: linear-gradient(to right, rgb(0, 84, 187), rgb(0, 174, 243));
     height: 65px;
+    box-shadow: 0px 5px 13px 0px #00000071;
 }
 
 .Header-Important {

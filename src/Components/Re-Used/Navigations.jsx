@@ -1,14 +1,23 @@
+import "../../Styles/Re-Used/Navigations.css"
+import { useState } from "react"
+
 const Navlinks =( props )=> {
+    const [activeMenuItem, setActiveMenuItem] = useState('home');
+
+    const handle_PressACTION =( select )=> {
+        setActiveMenuItem(select)
+        props.press_Action()
+    }
 
     return (
         <div className="NavLinks">
             <ul className='d-lg-flex'>
-                <li><a href="#/" onClick={props.press_Action}>Home</a></li>
-                <li><a href="#/learners" onClick={props.press_Action}>Learners</a></li>
-                <li><a href="#/educators" onClick={props.press_Action}>Educators</a></li>
-                <li><a href="#/enterprises" onClick={props.press_Action}>Enterprises</a></li>
-                {/* <li><a href="#/" onClick={props.press_Action}>Talent Pool</a></li> */}
-                <li><a href="#/about" onClick={props.press_Action}>About Us</a></li>
+                <li className={activeMenuItem === 'home' ? 'active' : ''}><a href="#/" onClick={()=> handle_PressACTION('home')}>Home</a></li>
+                <li className={activeMenuItem === 'learners' ? 'active' : ''}><a href="#/learners" onClick={()=> handle_PressACTION('learners')}>Learners</a></li>
+                <li className={activeMenuItem === 'educators' ? 'active' : ''}><a href="#/educators" onClick={()=> handle_PressACTION('educators')}>Educators</a></li>
+                <li className={activeMenuItem === 'enterprises' ? 'active' : ''}><a href="#/enterprises" onClick={()=> handle_PressACTION('enterprises')}>Enterprises</a></li>
+                {/* <li><a href="#/" onClick={()=> handle_PressACTION('talent')}>Talent Pool</a></li> */}
+                <li className={activeMenuItem === 'about' ? 'active' : ''}><a href="#/about" onClick={()=> handle_PressACTION('about')}>About Us</a></li>
             </ul>
         </div>
     )

@@ -157,18 +157,41 @@ function Course() {
                 <BackButton Title='Back to the courses'></BackButton>
             </div>
 
-            <div className="bg-light pt-4 pt-md-5">
+            <div className="bg-light pt-4 pt-md-5 Course-Shadow pb-md-4">
                 <div className="Course-Title px-3 px-sm-4 px-lg-5 pt-4 pt-md-3">
                     <h2>{dataSet.title} - <span>{dataSet.level}</span></h2>
                 </div>
 
-                <div className="Course-Description px-3 px-sm-4 px-lg-5">
+                <div className="Course-Description px-3 px-sm-4 px-lg-5 pb-3 pb-md-0">
                     <p className="mb-md-4 pb-2 pb-md-3">{dataSet.description}</p>
+
+                    {dataSet.cover != null &&  (
+                        <div className="Cover List d-md-flex justify-content-md-between">
+                            <div className="me-5 pb-3 pb-md-0">
+                                <div className="Join-Course">
+                                    <h5 className="text-start">{dataSet.cover.aim} <span>{dataSet.cover.target}</span></h5>
+                                </div>
+                                
+
+                                <ol>
+                                    {dataSet.cover.list.map((covering) => (
+                                        <li>{covering}</li>
+                                    ))}
+                                </ol>
+                            </div>
+
+                            <div className="Join-Course">
+                                <h5 className="text-start"><span>PREREQUISITE</span></h5>
+                                <h6>{dataSet.cover.pre}</h6>
+                            </div>
+                        </div>
+                        
+                    )}
                 </div>
             </div>
             
 
-            <div className="row g-0 pt-4 pt-sm-5 px-lg-5 bg-white">
+            <div className="row g-0 pt-4 pt-sm-5 px-lg-5">
                 <div className="col-md-7">
                     <div className="Course-Information pe-md-4">
                         <div className="Join-Course ps-md-4 ps-lg-0">
@@ -325,11 +348,13 @@ function Course() {
                 </div>
             </div>
 
-            <div className="d-flex justify-content-center py-4 py-md-5 bg-light">
-                <div className="Course-Pdf col-11 col-sm-10 col-md-9 pt-4 pb-2">
-                    <h5>Download the course content</h5>
-                    <img src={PDF_Icon} alt="PDF icon" />
-                    <p>{formData.title}.pdf</p>
+            <div className="Course-Content-Section">
+                <div className="d-flex justify-content-center py-4 py-md-5 Align-Course-Content">
+                    <div type="button" className="Course-Pdf col-11 col-sm-10 col-md-9 pt-4 pb-2">
+                        <h5>Download the course content</h5>
+                        <img src={PDF_Icon} alt="PDF icon" />
+                        <p>{formData.title}.pdf</p>
+                    </div>
                 </div>
             </div>
 

@@ -165,9 +165,9 @@ function Home() {
                 <div className="d-block d-md-none px-2 px-sm-4">
                     <div className="Benefits-Grid pb-5">
                         <div className="Benifit-Titles py-1 px-1">
-                            <button onClick={()=> setSelected(1)}>STUDENTS</button>
-                            <button onClick={()=> setSelected(2)}>ENTERPRISES</button>
-                            <button onClick={()=> setSelected(3)}>EDUCATORS</button>
+                            <button className={selected == 1 ? 'activeTab' : ''} onClick={()=> setSelected(1)}>STUDENTS</button>
+                            <button className={selected == 2 ? 'activeTab' : ''} onClick={()=> setSelected(2)}>ENTERPRISES</button>
+                            <button className={selected == 3 ? 'activeTab' : ''} onClick={()=> setSelected(3)}>EDUCATORS</button>
                         </div>
 
                         <div className="Loading-Benefits bg-white">

@@ -8,49 +8,49 @@ import ContactForm from "../Re-Used/ContactForm";
 import BeliefImage from "../../Assets/Others/Belief.png"
 import { useEffect } from "react";
 
-import One from "../../Assets/Team/1.png"
-import Two from "../../Assets/Team/2.jpg"
-import Three from "../../Assets/Team/3.jpeg"
-import four from "../../Assets/Team/4.jpg"
-import five from "../../Assets/Team/5.jpeg"
-import six from "../../Assets/Team/6.jpg"
+import One from "../../Assets/Team/Shaveen.jpg"
+import Two from "../../Assets/Team/Lakshitha.jpg"
+import Three from "../../Assets/Team/Sachini.jpeg"
+import four from "../../Assets/Team/Ronal.jpg"
+import five from "../../Assets/Team/6.jpg"
+import six from "../../Assets/Team/Nadeesh.JPG"
 
 function AboutUs() {
 
     const members = [
         {
-            name:'Member name',
-            profession:'Member profession',
+            name:'Shaveen',
+            profession:'Founder',
             pic:One
         },
 
         {
-            name:'Member name',
-            profession:'Member profession',
+            name:'Lakshitha',
+            profession:'Instructor',
             pic:Two
         },
 
         {
-            name:'Member name',
-            profession:'Member profession',
+            name:'Sachini',
+            profession:'Instructor',
             pic:Three
         },
 
         {
-            name:'Member name',
-            profession:'Member profession',
+            name:'Ronal',
+            profession:'Instructor',
             pic:four
         },
 
         {
-            name:'Member name',
-            profession:'Member profession',
+            name:'Chamith',
+            profession:'Instructor',
             pic:five
         },
 
         {
-            name:'Member name',
-            profession:'Member profession',
+            name:'Nadeesh',
+            profession:'Instructor',
             pic:six
         },
     ]
@@ -114,7 +114,7 @@ function AboutUs() {
         {
             id:3,
             question:'3. Are you a degree-awarding institution? ',
-            answer:'We do not award any degrees or diplomas. We cater to top employers world-wide who increasingly value hands-on technical competency, world-class skills and professional attitudes over certificates.'
+            answer:'We do not award any degrees or diplomas. We value hands-on technical competency, world-class skills and professional attitudes over certificates. We want our students serve with excellence, in both skills and character.'
         },
         
         {
@@ -158,7 +158,6 @@ function AboutUs() {
             question:'10. What kind of equipment does my child/I need, when learning?',
             answer:"All that's needed is a computer (laptop, desktop), web camera and microphone (built-in or external) and any kind of internet connection."
         },
-        
     ]
 
     useEffect(() => {
@@ -176,7 +175,7 @@ function AboutUs() {
                     <div className="Vision py-4 py-md-0">
                         <div className="row g-0 d-flex px-3 px-sm-0">
                             <div className="col-sm-6 ps-sm-4 pe-sm-2 pb-3 pb-sm-0">
-                                <ViewCard Title='Our Vision' CardImage={Vision} Description='Change lives by being the most trusted source of training and employment.'></ViewCard>
+                                <ViewCard Title='Our Vision' CardImage={Vision} Description='Change lives by being the most trusted source of training and employment in Tech space.'></ViewCard>
                             </div>
 
                             <div className="col-sm-6 pe-sm-4 ps-sm-2">
@@ -192,15 +191,18 @@ function AboutUs() {
                 </div>
 
                 <div className="Our-Team py-4">
-                    <h5 className="ps-4">Our Members</h5>
+                    <h5 className="ps-4">OUR MEMBERS</h5>
 
-                    <div className="row g-0 pt-3 px-3 px-sm-4">
+                    <div className="row gx-0 gy-2 gy-sm-3 pt-3 px-2 px-sm-4">
                         {members.map((member) => (
-                            <div className="col-6 col-md-4 col-lg-3 col-xl-2 px-2">
-                                <div className="Single-Member pt-1">
-                                    <h6 className="ps-2">{member.name}</h6>
+                            <div className="col-6 col-md-4 col-lg-3 col-xl-2 px-1 px-sm-2">
+                                <div className="Single-Member">
+                                    <div className="Member-Name">
+                                        <h6 className="my-0"><strong>{member.name}</strong></h6>
+                                    </div>
+                                    
                                     <img src={member.pic} alt="Member pic" />
-                                    <p className="mt-1 pb-2">{member.profession}</p>
+                                    <p className="mb-1">{member.profession}</p>
                                 </div>
                             </div>
                         ))}
@@ -241,7 +243,7 @@ function AboutUs() {
                     <h3 className="fs-3">HELIPNG ABSOLUTE BEGINNERS TO BE <span>JOB-READY</span> DIGITAL TALENT</h3>
 
                     <p><strong>N</strong>o matter who you are, what you do or where you work, your life is being shaped by changing technology. We can’t stop this, but we can adapt our future to make the most of it.</p>
-                    <p><strong>W</strong>hether you’re 17 or 60, our programme has been developed to help launch a financially rewarding career in Tech – no prior experience or specialist skill needed!</p>
+                    <p><strong>W</strong>hether you’re <strong>6 or 60</strong>, our programme has been developed to help launch a financially rewarding career in Tech – no prior experience or specialist skill needed!</p>
                     <p><strong>L</strong>et us help you TODAY. You don’t have to do it alone anymore; we will be with you every step of the way.</p>
 
                     <div className="d-flex justify-content-start">
