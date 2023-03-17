@@ -15,8 +15,12 @@ import PDF_Icon from "../../Assets/Others/pdf.png"
 import { motion } from 'framer-motion';
 import emailjs from "emailjs-com"
 
-function Course() {
+import CodingBasics from "../../Assets/Course-PDF/CODING-BASICS_Scratch.pdf"
+import SoftwareEngineering from "../../Assets/Course-PDF/SOFTWARE-ENGINEERING_LaunchPad.pdf"
+import WebDevelopmentFoundation from "../../Assets/Course-PDF/WEB-DEVELOPMENT_Foundation.pdf"
+import WebDevelopmentFullStack from "../../Assets/Course-PDF/WEB-DEVELOPMENT_FullStack.pdf"
 
+function Course() {
     const location = useLocation();
     const searchParams = new URLSearchParams(location.search);
 
@@ -24,7 +28,6 @@ function Course() {
     const _courseELEMENT = searchParams.get('course')-1;
 
     const dataSet = CourseData[_categoryELEMENT].courses[_courseELEMENT]
-    const courseContents = dataSet.contents
 
     const courseName = dataSet.title + '-' + ' (' + dataSet.level + ')';
 
@@ -39,6 +42,13 @@ function Course() {
 
     const [submit, setSubmit] = useState(false)
     const [error, setError] = useState(false)
+
+    const pdf = [
+                    CodingBasics,
+                    SoftwareEngineering,
+                    WebDevelopmentFoundation,
+                    WebDevelopmentFullStack
+                ]
 
     const inputs = [
         {
@@ -148,6 +158,15 @@ function Course() {
 
             setError(false)
         }
+    }
+
+    const download_PDF =( location, name)=> {
+        const downloadLink = document.createElement("a");
+        downloadLink.href = pdf[location];
+        downloadLink.download = `${name}.pdf`;
+        document.body.appendChild(downloadLink);
+        downloadLink.click();
+        document.body.removeChild(downloadLink);
     }
 
     return (
@@ -350,24 +369,13 @@ function Course() {
 
             <div className="Course-Content-Section">
                 <div className="d-flex justify-content-center py-4 py-md-5 Align-Course-Content">
-                    <div type="button" className="Course-Pdf col-11 col-sm-10 col-md-9 pt-4 pb-2">
+                    <div type="button" onClick={()=> download_PDF(dataSet.file, formData.title)} className="Course-Pdf col-11 col-sm-10 col-md-9 pt-4 pb-2">
                         <h5>Download the course content</h5>
                         <img src={PDF_Icon} alt="PDF icon" />
                         <p>{formData.title}.pdf</p>
                     </div>
                 </div>
             </div>
-
-            {/* <div className="Selected-Course-Contents px-3 px-sm-4 px-lg-5">
-                {courseContents.map((content) => (
-                    <HoriontalScroller 
-                        Title={content.contentTitle} 
-                        Style={content.style} 
-                        List={content.lessons}
-                        Chunk={content.chunk}>
-                    </HoriontalScroller>
-                ))}
-            </div> */}
         </div>
     )
     
