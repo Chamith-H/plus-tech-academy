@@ -71,7 +71,7 @@ function Learners() {
 
           <div className="Tranings px-2 px-sm-5 pt-5 pb-2">
                 <h2 className="text-center px-2 px-sm-0 fs-3 pb-4">FORMAL EDUCATION WILLMAKE YOU ALIVING <span>+TECH EDUCATION</span> WILL MAKE YOU A FORTUNE</h2>
-              <VerticalGrid></VerticalGrid>
+                <VerticalGrid></VerticalGrid>
           </div>
 
           <div className="Guidence-Services bg-light mt-5 pt-5 py-0 my-0">

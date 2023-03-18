@@ -116,10 +116,103 @@ const CourseData = [
         ]
     },
 
+    //------------------------------------------------------------------------------------------------------------------------------------------
+    {
+        category_ID: 3,
+        category_Name: 'ENTREPRENEURSHIP',
+        courses : [
+            {   
+                id: 1,
+                title:'LAUNCH TRACK',
+                level:'BUSINESS MODEL CREATION',
+                file: "",
+                introduction:'Developing Problem Solvers',
+                description:"Our training mission is to change the way we build business. While the job market is getting shrunk, the only real solution is entrepreneurship. But it is not easy to become an entrepreneur or start a new business. We provide practical learning with hand-holding for our students to learn through the world's most impact business stories and training. We are incredibly passionate about helping you first find out whether this is the right entrepreneur training for you. If you still have questions feel free to reach out. We are happy to help you!",
+                join:'//// NEED',
+                duration:'//// NEED',
+                method:'Online (Live)',
+                language:'Sinhala/English',
+                attendance:'4 hours/week (2 days / week)',
+                fee:3000,
+                contents:[
+                    {
+                        contentTitle:'Areas We cover during the sessions',
+                        style:2,
+                        chunk:5,
+                        lessons:[
+                            {
+                                point:'1. Problem worth solving ',
+                                explain:'Analyze the problems that your potential customers have. Why do they need your products or services?'
+                            },
+
+                            {
+                                point:'2. Solution',
+                                explain:'Discover what is your product or service?'
+                            },
+
+                            {
+                                point:'3. Target Market ',
+                                explain:'Discover your ideal customer'
+                            },
+
+                            {
+                                point:'4. Competition ',
+                                explain:'What other products and services do your potential customers use.'
+                            },
+
+                            {
+                                point:'5. Sales Channels',
+                                explain:'Analyze how you can sell to your customers. '
+                            },
+
+                            {
+                                point:'6. Marketing Activities ',
+                                explain:'Analyze the primary ways you will reach to your customers.'
+                            },
+
+                            {
+                                point:'7. Team & Key roles',
+                                explain:'Plan your team. Discover what key roles you will need at the start to fulfill your daily tasks.'
+                            },
+
+                            {
+                                point:'8. Partners & Resources',
+                                explain:'Analyze the key partners & resources you need to launch your venture'
+                            },
+
+                            {
+                                point:'9. Revenue, Expenses & Profits',
+                                explain:'Craft the business model mapping with finances'
+                            },
+
+                            {
+                                point:'10. Investment',
+                                explain:'If you need to raise money for your business, how much do you need and what will you use it for.'
+                            },
+
+                            {
+                                point:'11. Leadership',
+                                explain:'Craft your leadership style - If you lead only with your position, you are simply a boss, not a leader.'
+                            },
+
+                            {
+                                point:'12. Milestones',
+                                explain:'Discover your primary goals and objectives that you hope to achieve.'
+                            },
+
+                            {
+                                point:'13. Identity',
+                                explain:'Craft your one sentence business pitch.'
+                            },
+                        ]
+            }    ]   }
+        ]
+    },
+
 //------------------------------------------------------------------------------------------------------------------------------------------
    
     {
-        category_ID: 3,
+        category_ID: 4,
         category_Name: 'DATA',
         courses : [
             {   
@@ -142,7 +235,7 @@ const CourseData = [
 //------------------------------------------------------------------------------------------------------------------------------------------
 
     {
-        category_ID: 4,
+        category_ID: 5,
         category_Name: 'DESIGN',
         courses : [
             {   
@@ -162,27 +255,6 @@ const CourseData = [
         ]
     },
 
-//------------------------------------------------------------------------------------------------------------------------------------------
-    {
-        category_ID: 5,
-        category_Name: 'ENTREPRENEURSHIP',
-        courses : [
-            {   
-                id: 1,
-                title:'LAUNCH TRACK',
-                level:'BUSINESS MODEL CREATION',
-                file: "",
-                introduction:'//// NEED',
-                description:"Our training mission is to change the way we build business. While the job market is getting shrunk, the only real solution is entrepreneurship. But it is not easy to become an entrepreneur or start a new business. We provide practical learning with hand-holding for our students to learn through the world's most impact business stories and training. We are incredibly passionate about helping you first find out whether this is the right entrepreneur training for you. If you still have questions feel free to reach out. We are happy to help you!",
-                join:'//// NEED',
-                duration:'//// NEED',
-                method:'Online (Live)',
-                language:'Sinhala/English',
-                attendance:'4 hours/week (2 days / week)',
-                fee:3000,
-            }
-        ]
-    },
 ];
 
 export default CourseData

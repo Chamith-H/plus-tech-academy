@@ -11,9 +11,9 @@ const HoriontalScroller =( props )=> {
 
     return (
         <div className="HoriontalScroller">
-            <h6>{props.Title}</h6>
+            <h5>{props.Title}</h5>
 
-            <div className="Side-Scroller bg-light ps-3 pt-3 mb-5">
+            <div className="Side-Scroller bg-light ps-3 pt-3 mb-5 mt-4">
                 {chunks.map((_chunk) => (
                     <div className="col-12 col-md-6 col-lg-4">
                         <ul className="List-Item-Line">

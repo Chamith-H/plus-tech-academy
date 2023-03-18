@@ -77,13 +77,18 @@
     background-color: rgb(255, 255, 255);
 }
 
+.Our-Team h3 {
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    color: black;
+}
+
 .About-Helping h3 {
     font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
     text-align: start;
     margin-bottom: 20px;
 }
 
-.About-Helping span {
+.About-Helping span, .Our-Team span {
     color: rgb(1,86,188);
 }
 

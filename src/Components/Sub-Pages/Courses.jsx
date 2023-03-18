@@ -367,15 +367,30 @@ function Course() {
                 </div>
             </div>
 
-            <div className="Course-Content-Section">
-                <div className="d-flex justify-content-center py-4 py-md-5 Align-Course-Content">
-                    <div type="button" onClick={()=> download_PDF(dataSet.file, formData.title)} className="Course-Pdf col-11 col-sm-10 col-md-9 pt-4 pb-2">
-                        <h5>Download the course content</h5>
-                        <img src={PDF_Icon} alt="PDF icon" />
-                        <p>{formData.title}.pdf</p>
+            {dataSet.contents == null && (
+                <div className="Course-Content-Section">
+                    <div className="d-flex justify-content-center py-4 py-md-5 Align-Course-Content px-3 px-sm-0">
+                        <div type="button" onClick={()=> download_PDF(dataSet.file, formData.title)} className="Course-Pdf col-11 col-sm-10 col-md-9 pt-4 pb-2">
+                            <h5 className="text-center">Download the course content</h5>
+                            <img src={PDF_Icon} alt="PDF icon" />
+                            <p className="text-center">{formData.title}.pdf</p>
+                        </div>
                     </div>
                 </div>
-            </div>
+            )}
+
+            {dataSet.contents != null && (
+                <div className="Selected-Course-Contents px-3 px-sm-4 px-lg-5 mt-5 pb-4">
+                    {dataSet.contents.map((content) => (
+                        <HoriontalScroller 
+                            Title={content.contentTitle} 
+                            Style={content.style} 
+                            List={content.lessons}
+                            Chunk={content.chunk}>
+                        </HoriontalScroller>
+                    ))}
+                </div>
+            )}
         </div>
     )
     

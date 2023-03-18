@@ -8,12 +8,12 @@ import ContactForm from "../Re-Used/ContactForm";
 import BeliefImage from "../../Assets/Others/Belief.png"
 import { useEffect } from "react";
 
-import One from "../../Assets/Team/Shaveen.jpg"
-import Two from "../../Assets/Team/Lakshitha.jpg"
-import Three from "../../Assets/Team/Sachini.jpeg"
-import four from "../../Assets/Team/Ronal.jpg"
-import five from "../../Assets/Team/6.jpg"
-import six from "../../Assets/Team/Nadeesh.JPG"
+import Shaveen from "../../Assets/Team/Shaveen.jpg"
+import Lakshitha from "../../Assets/Team/Lakshitha.jpg"
+import Sachini from "../../Assets/Team/Sachini.jpeg"
+import Ronal from "../../Assets/Team/Ronal.jpg"
+import Chamith from "../../Assets/Team/Chamith.png"
+import Nadeesh from "../../Assets/Team/Nadeesh.JPG"
 
 function AboutUs() {
 
@@ -21,37 +21,38 @@ function AboutUs() {
         {
             name:'Shaveen',
             profession:'Founder',
-            pic:One
-        },
-
-        {
-            name:'Lakshitha',
-            profession:'Instructor',
-            pic:Two
-        },
-
-        {
-            name:'Sachini',
-            profession:'Instructor',
-            pic:Three
-        },
-
-        {
-            name:'Ronal',
-            profession:'Instructor',
-            pic:four
+            pic:Shaveen
         },
 
         {
             name:'Chamith',
             profession:'Instructor',
-            pic:five
+            pic:Chamith
         },
 
         {
             name:'Nadeesh',
             profession:'Instructor',
-            pic:six
+            pic:Nadeesh
+        },
+
+        {
+            name:'Sachini',
+            profession:'Instructor',
+            pic:Sachini
+        },
+
+        {
+            name:'Ronal',
+            profession:'Instructor',
+            pic:Ronal
+        },
+
+
+        {
+            name:'Lakshitha',
+            profession:'Instructor',
+            pic:Lakshitha
         },
     ]
 
@@ -190,8 +191,8 @@ function AboutUs() {
                     <h6><strong>Who we serve..? :</strong> <span>Anyone lacking guidance to build future ready digital skills.</span></h6>
                 </div>
 
-                <div className="Our-Team py-4">
-                    <h5 className="ps-4">OUR MEMBERS</h5>
+                <div className="Our-Team py-5">
+                    <h3 className="ps-4">OUR <span>TEAM</span></h3>
 
                     <div className="row gx-0 gy-2 gy-sm-3 pt-3 px-2 px-sm-4">
                         {members.map((member) => (

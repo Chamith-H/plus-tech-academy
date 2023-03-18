@@ -3,13 +3,14 @@ import { useState, useEffect } from "react"
 import { useNavigate } from 'react-router-dom';
 import DataBox from "./DataBox"
 import CourseData from "../../Datasets/CourseData";
+import ChoosedCourse from "../../Datasets/ChoosedCourse";
 
 const VerticalGrid =()=> {
 
     const navigate = useNavigate();
     const learn = CourseData;
 
-    const[clicked, setClicked] = useState([true, false, false, false, false, false])
+    const[clicked, setClicked] = useState([false, false, false, false, false, false])
     const[courses, setCourses] = useState(learn[0].courses)
     const[category, setCategory] = useState(1)
 
@@ -23,11 +24,34 @@ const VerticalGrid =()=> {
         newClicked[id-1] = true;
         setClicked(newClicked);
         setCategory(id);
+
+        //Handling Back Presing
+        const choosed = new ChoosedCourse
+        choosed.ChoosedCourse(id-1)
+
     }
 
     const selected_Course=( id )=> {
         navigate(`/selected-course?category=${category}&course=${id}`);
     }
+
+    useEffect(() => {
+        const history = new ChoosedCourse
+
+        if(history.fetch().id != 0) {
+            const previousClicked = [false, false, false, false, false, false];
+            previousClicked[history.fetch().id] = true;
+            setClicked(previousClicked);
+            setCourses(learn[history.fetch().id].courses)
+        }
+
+        else {
+            const previousClicked = [true, false, false, false, false, false];
+            setClicked(previousClicked);
+        }
+        
+        
+    }, []);
 
     return (
         <div className="VerticalGrid">
