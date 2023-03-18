@@ -1,7 +1,7 @@
 {
   "files": {
-    "main.css": "/plus-tech-academy/static/css/main.713a3791.css",
-    "main.js": "/plus-tech-academy/static/js/main.5aa7cca7.js",
+    "main.css": "/plus-tech-academy/static/css/main.e1c3c25c.css",
+    "main.js": "/plus-tech-academy/static/js/main.316dbcbd.js",
     "static/js/787.3838c8ef.chunk.js": "/plus-tech-academy/static/js/787.3838c8ef.chunk.js",
     "static/media/CODING-BASICS_Scratch.pdf": "/plus-tech-academy/static/media/CODING-BASICS_Scratch.8c93531c972ef90eeea6.pdf",
     "static/media/Enterprises.png": "/plus-tech-academy/static/media/Enterprises.845b33090367953aaaa7.png",
@@ -16,6 +16,7 @@
     "static/media/WEB-DEVELOPMENT_FullStack.pdf": "/plus-tech-academy/static/media/WEB-DEVELOPMENT_FullStack.2a4ad58d55d507701825.pdf",
     "static/media/Enroll.png": "/plus-tech-academy/static/media/Enroll.e87146423c1b2647e2f9.png",
     "static/media/Whatsapp.png": "/plus-tech-academy/static/media/Whatsapp.149c09a9fdcfc94bfea3.png",
+    "static/media/Chamith.png": "/plus-tech-academy/static/media/Chamith.17561054f3d10347273e.png",
     "static/media/Nadeesh.JPG": "/plus-tech-academy/static/media/Nadeesh.d7cf40641947d8ad48b1.JPG",
     "static/media/WEB-DEVELOPMENT_Foundation.pdf": "/plus-tech-academy/static/media/WEB-DEVELOPMENT_Foundation.0a4d000a025c75f7a01e.pdf",
     "static/media/Jobs-Icon.png": "/plus-tech-academy/static/media/Jobs-Icon.fd78028321da8e3a4641.png",
@@ -47,12 +48,12 @@
     "static/media/Call.png": "/plus-tech-academy/static/media/Call.6d762e082919dc440d32.png",
     "static/media/Button-Circle.png": "/plus-tech-academy/static/media/Button-Circle.38ae1876b404cf9148ea.png",
     "index.html": "/plus-tech-academy/index.html",
-    "main.713a3791.css.map": "/plus-tech-academy/static/css/main.713a3791.css.map",
-    "main.5aa7cca7.js.map": "/plus-tech-academy/static/js/main.5aa7cca7.js.map",
+    "main.e1c3c25c.css.map": "/plus-tech-academy/static/css/main.e1c3c25c.css.map",
+    "main.316dbcbd.js.map": "/plus-tech-academy/static/js/main.316dbcbd.js.map",
     "787.3838c8ef.chunk.js.map": "/plus-tech-academy/static/js/787.3838c8ef.chunk.js.map"
   },
   "entrypoints": [
-    "static/css/main.713a3791.css",
-    "static/js/main.5aa7cca7.js"
+    "static/css/main.e1c3c25c.css",
+    "static/js/main.316dbcbd.js"
   ]
 }
