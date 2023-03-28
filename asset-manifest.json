@@ -1,7 +1,7 @@
 {
   "files": {
-    "main.css": "/plus-tech-academy/static/css/main.e1c3c25c.css",
-    "main.js": "/plus-tech-academy/static/js/main.316dbcbd.js",
+    "main.css": "/plus-tech-academy/static/css/main.7597fe46.css",
+    "main.js": "/plus-tech-academy/static/js/main.3d8c9e65.js",
     "static/js/787.3838c8ef.chunk.js": "/plus-tech-academy/static/js/787.3838c8ef.chunk.js",
     "static/media/CODING-BASICS_Scratch.pdf": "/plus-tech-academy/static/media/CODING-BASICS_Scratch.8c93531c972ef90eeea6.pdf",
     "static/media/Enterprises.png": "/plus-tech-academy/static/media/Enterprises.845b33090367953aaaa7.png",
@@ -48,12 +48,12 @@
     "static/media/Call.png": "/plus-tech-academy/static/media/Call.6d762e082919dc440d32.png",
     "static/media/Button-Circle.png": "/plus-tech-academy/static/media/Button-Circle.38ae1876b404cf9148ea.png",
     "index.html": "/plus-tech-academy/index.html",
-    "main.e1c3c25c.css.map": "/plus-tech-academy/static/css/main.e1c3c25c.css.map",
-    "main.316dbcbd.js.map": "/plus-tech-academy/static/js/main.316dbcbd.js.map",
+    "main.7597fe46.css.map": "/plus-tech-academy/static/css/main.7597fe46.css.map",
+    "main.3d8c9e65.js.map": "/plus-tech-academy/static/js/main.3d8c9e65.js.map",
     "787.3838c8ef.chunk.js.map": "/plus-tech-academy/static/js/787.3838c8ef.chunk.js.map"
   },
   "entrypoints": [
-    "static/css/main.e1c3c25c.css",
-    "static/js/main.316dbcbd.js"
+    "static/css/main.7597fe46.css",
+    "static/js/main.3d8c9e65.js"
   ]
 }
