@@ -1,5 +1,5 @@
 .About-Selection {
-    background-color: rgb(231, 231, 231);
+    background: rgb(231, 231, 231);
 }
 
 .About-Selection h6 {
@@ -25,7 +25,7 @@
 .Member-Name {
     border-top-right-radius: 5px;
     border-top-left-radius: 5px;
-    background-color: rgba(255, 255, 255, 0);
+    background: rgba(255, 255, 255, 0);
     padding-top: 6px;
     padding-bottom: 6px;
 }
@@ -68,7 +68,7 @@
     border-bottom-style: solid;
     border-width: 1px;
     border-color: rgb(207, 207, 207);
-    background-color: rgb(240, 240, 240);
+    background: rgb(240, 240, 240);
 }
 
 .Objectives-About {
@@ -81,7 +81,7 @@
     border-width: 1px;
     border-color: rgb(20, 124, 221);
     border-radius: 6px;
-    background-color: rgb(255, 255, 255);
+    background: rgb(255, 255, 255);
 }
 
 .Our-Team h3 {
@@ -115,7 +115,7 @@
 }
 
 .Asking-Faqs {
-    background-color: rgb(231, 231, 231);
+    background: rgb(231, 231, 231);
 }
 
 .Faq-List h6 {
@@ -140,7 +140,7 @@
 }
 
 .Contact-About-Box {
-    background-color: rgb(231, 231, 231);
+    background: rgb(231, 231, 231);
 }
 
 .Contact-About-Box h6 {
@@ -174,7 +174,7 @@
     }
 
     .Contact-About-Box {
-        background-color: rgb(12,103,198);
+        background: rgb(12,103,198);
     }
 
 }

@@ -1,7 +1,7 @@
 .Footer-Align {
     display: flex;
     align-items: center;
-    background-color:  rgb(255, 255, 255);
+    background:  rgb(255, 255, 255);
 }
 
 .Footer-Contents {
@@ -76,7 +76,7 @@
 .Footer-Bottom {
     text-align: center;
     color: rgb(114, 114, 114);
-    background-color: rgb(245, 245, 245);
+    background: rgb(245, 245, 245);
 }
 
 
