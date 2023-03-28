@@ -1,3 +1,8 @@
+.MentorPage {
+    position: relative;
+    z-index: 5;
+}
+
 .Mentor-Introduction p, h6{
     text-align: justify;
 }

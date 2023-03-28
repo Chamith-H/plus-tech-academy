@@ -15,6 +15,8 @@ import Ronal from "../../Assets/Team/Ronal.jpg"
 import Chamith from "../../Assets/Team/Chamith.png"
 import Nadeesh from "../../Assets/Team/Nadeesh.JPG"
 
+import { motion } from "framer-motion";
+
 function AboutUs() {
 
     const members = [
@@ -187,24 +189,26 @@ function AboutUs() {
                 </div>
 
                 <div className="About-Selection pt-3 pb-2 px-3">
-                    <h6><strong>What..? :</strong> <span>Accelerated skill training for employability, connect opportunities to earn, share knowledge for everyone’s success.</span></h6>
-                    <h6><strong>Who we serve..? :</strong> <span>Anyone lacking guidance to build future ready digital skills.</span></h6>
+                    <h6><strong>What ? :</strong> <span>Accelerated skill training for employability, connect opportunities to earn, share knowledge for everyone’s success.</span></h6>
+                    <h6><strong>Who we serve ? :</strong> <span>Anyone lacking guidance to build future ready digital skills.</span></h6>
                 </div>
 
                 <div className="Our-Team py-5">
                     <h3 className="ps-4">OUR <span>TEAM</span></h3>
 
                     <div className="row gx-0 gy-2 gy-sm-3 pt-3 px-2 px-sm-4">
-                        {members.map((member) => (
-                            <div className="col-6 col-md-4 col-lg-3 col-xl-2 px-1 px-sm-2">
-                                <div className="Single-Member">
+                        {members.map((member, index) => (
+                            <div className="col-6 col-md-4 col-lg-3 col-xl-2 px-1 px-sm-2 position-relative">
+                                <motion.div className="Single-Member"
+                                    initial={{ y: 300, opacity:0 }}
+                                    animate={{ y: 0 , opacity:1, transition: { duration: 0.1 + index / 5 }}}>
                                     <div className="Member-Name">
                                         <h6 className="my-0"><strong>{member.name}</strong></h6>
                                     </div>
                                     
                                     <img src={member.pic} alt="Member pic" />
                                     <p className="mb-1">{member.profession}</p>
-                                </div>
+                                </motion.div>
                             </div>
                         ))}
                     </div>
@@ -241,7 +245,7 @@ function AboutUs() {
                 </div>
 
                 <div className="About-Helping px-3 px-sm-4 py-4 px-md-5 py-md-5 bg-white">
-                    <h3 className="fs-3">HELIPNG ABSOLUTE BEGINNERS TO BE <span>JOB-READY</span> DIGITAL TALENT</h3>
+                    <h3 className="fs-3">HELPING ABSOLUTE BEGINNERS TO BE <span>JOB-READY</span> DIGITAL TALENT</h3>
 
                     <p><strong>N</strong>o matter who you are, what you do or where you work, your life is being shaped by changing technology. We can’t stop this, but we can adapt our future to make the most of it.</p>
                     <p><strong>W</strong>hether you’re <strong>6 or 60</strong>, our programme has been developed to help launch a financially rewarding career in Tech – no prior experience or specialist skill needed!</p>

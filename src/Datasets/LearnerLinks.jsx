@@ -20,6 +20,11 @@ const LearnerLinks = [
                     },
 
                     {
+                        name:'replit.com/bounties',
+                        link:'https://replit.com/bounties/'
+                    },
+
+                    {
                         name:'fiverr.com',
                         link:'https://www.fiverr.com/'
                     },
@@ -199,7 +204,7 @@ const LearnerLinks = [
 
                     {
                         seperate:true,
-                        name:'PROJECT MANAGEMENT',
+                        name:'Project Management',
                         link:'https://alison.com/course/diploma-in-project-management-revised-2017'
                     },
         ]

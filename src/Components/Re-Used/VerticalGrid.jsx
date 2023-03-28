@@ -32,7 +32,13 @@ const VerticalGrid =()=> {
     }
 
     const selected_Course=( id )=> {
-        navigate(`/selected-course?category=${category}&course=${id}`);
+        if (category == 4 || category == 5 ) {
+            console.log("Hello")
+        }
+
+        else {
+            navigate(`/selected-course?category=${category}&course=${id}`);
+        }
     }
 
     useEffect(() => {
@@ -40,9 +46,10 @@ const VerticalGrid =()=> {
 
         if(history.fetch().id != 0) {
             const previousClicked = [false, false, false, false, false, false];
+            setCategory(history.fetch().id+1)
+            setCourses(learn[history.fetch().id].courses)
             previousClicked[history.fetch().id] = true;
             setClicked(previousClicked);
-            setCourses(learn[history.fetch().id].courses)
         }
 
         else {

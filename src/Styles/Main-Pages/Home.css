@@ -190,6 +190,10 @@
     height: 60%;
 }
 
+.Role-Circle img:hover {
+    height: 65%;
+}
+
 .Role-Description {
     width:150px;
     text-align: center;
@@ -199,6 +203,30 @@
     font-weight: 500;
     color: rgba(0, 49, 185, 0.918);;
 }
+
+.Role-Circle img {
+    opacity: 0;
+    transform: translateY(50px);
+  }
+  
+  .Role-Circle img.animate {
+    animation-name: slideIn;
+    animation-duration: 1s;
+    animation-delay: 0.25s;
+    animation-fill-mode: forwards;
+  }
+
+@keyframes slideIn {
+    from {
+      opacity: 0;
+      transform: translateY(50px);
+    }
+    to {
+      opacity: 1;
+      transform: translateY(0);
+    }
+  }
+
 /* ******************************************************************/
 
 

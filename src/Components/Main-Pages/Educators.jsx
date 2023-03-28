@@ -8,6 +8,8 @@ import { useNavigate } from 'react-router-dom';
 import ContactForm from "../Re-Used/ContactForm"
 import { useEffect } from "react"
 
+import { motion } from "framer-motion"
+
 function Educators() {
 
     const navigate = useNavigate();
@@ -72,15 +74,17 @@ function Educators() {
 
             <div className="Process-Row py-md-4 px-lg-4 px-md-3 mb-3">
                 <div className="row g-0 py-3 py-sm-4 py-md-0">
-                    {likes.map((like) => (
-                        <div className="col-12 px-4 px-sm-5 py-2 py-md-0 col-md-4 px-md-2 px-lg-3">
+                    {likes.map((like, index) => (
+                        <motion.div className="col-12 px-4 px-sm-5 py-2 py-md-0 col-md-4 px-md-2 px-lg-3"
+                            initial={{ y: 250 }}
+                            animate={{ y: 0 , transition: { duration: 0.2 + index/6 }}}>
                             <ClickCard
                                 Title={like.title}
                                 Image={like.image}
                                 Job={like.job}
                                 press_Action={()=> navigate(like.navigate)}>
                             </ClickCard>
-                        </div>
+                        </motion.div>
                     ))}
                 </div>
             </div>

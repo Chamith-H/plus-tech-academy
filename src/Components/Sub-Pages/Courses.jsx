@@ -204,7 +204,13 @@ function Course() {
                                 <h6>{dataSet.cover.pre}</h6>
                             </div>
                         </div>
-                        
+                    )}
+
+                    {dataSet.outcome != null && (
+                        <div className="Our-OutCome">
+                            <h5>OUTCOME :</h5>
+                            <p>{dataSet.outcome}</p>
+                        </div>
                     )}
                 </div>
             </div>
@@ -235,7 +241,7 @@ function Course() {
                                 <div className="col-sm-6 d-flex justify-content-start justify-content-sm-start">
                                     <div className="Detail-Set">
                                         <h6>Attendance : <span>{dataSet.attendance}</span></h6>
-                                        <h6>Course Fee : <span className="Course-Fee">Rs.{dataSet.fee}</span></h6>
+                                        <h6>Course Fee : <span className="Course-Fee">Rs.{dataSet.fee} / Month</span></h6>
                                     </div>
                                 </div>
                             </div>
@@ -349,7 +355,7 @@ function Course() {
                                 </div>
 
                                 <div className="Advice-Details">
-                                    <p>Pay and send us the receipt via WhatsApp to <span>{AdminData.whatsapp}</span></p>
+                                    <p>Pay and send us the receipt via WhatsApp to <a href="https://api.whatsapp.com/send/?phone=%2B94742833337&text&app_absent=0" target="_blank"><span>{AdminData.whatsapp}</span></a></p>
                                 </div>
                             </div>
 
@@ -359,7 +365,7 @@ function Course() {
                                 </div>
 
                                 <div className="Advice-Details">
-                                    <p>Contact our mentors for help <span>(Call hours weekdays 11 am – 6 pm)</span>, More Info: <span>{AdminData.call}</span></p>
+                                    <p>Contact our mentors for help <span>(Call hours weekdays 11 am – 6 pm)</span>, More Info: <a href="tel:+94742833337"><span>{AdminData.call}</span></a></p>
                                 </div>
                             </div>
                         </div>
@@ -367,7 +373,11 @@ function Course() {
                 </div>
             </div>
 
-            {dataSet.contents == null && (
+            {dataSet.hide != null && (
+                <div className="my-5"></div>
+            )}
+
+            {dataSet.contents == null && dataSet.hide == null &&(
                 <div className="Course-Content-Section">
                     <div className="d-flex justify-content-center py-4 py-md-5 Align-Course-Content px-3 px-sm-0">
                         <div type="button" onClick={()=> download_PDF(dataSet.file, formData.title)} className="Course-Pdf col-11 col-sm-10 col-md-9 pt-4 pb-2">

@@ -1,6 +1,6 @@
 import "../../Styles/Main-Pages/Home.css"
 import { useNavigate } from 'react-router-dom';
-import { useState, useEffect } from "react";
+import { useState, useEffect, useRef } from "react";
 
 import BannerImage from "../../Assets/Home-Page/Banner-Image.png";
 import ButtonCircle from "../../Assets/Home-Page/Button-Circle.png";
@@ -16,6 +16,7 @@ function Home() {
 
     const navigate = useNavigate();
     const [selected, setSelected] = useState(1)
+    const scroll_Why = useRef(null)
 
     const to_Learners =()=> {
         navigate('/learners');
@@ -110,6 +111,29 @@ function Home() {
         window.scrollTo(0, 0);
     }, []);
 
+    useEffect(() => {
+        const handleScroll = () => {
+          const myDiv = scroll_Why.current;
+          if (myDiv) {
+            const windowHeight = window.innerHeight;
+
+            const images = myDiv.querySelectorAll('img');
+
+            images.forEach((p) => {
+                if (p.getBoundingClientRect().top < windowHeight - 100) {
+                  p.classList.add('animate');
+                }
+              });
+            }
+        };
+    
+        window.addEventListener('scroll', handleScroll);
+    
+        return () => {
+          window.removeEventListener('scroll', handleScroll);
+        };
+      }, []);
+
     return (
         <div className="Home">
             <div className="Banner">
@@ -194,9 +218,9 @@ function Home() {
             <div className="Our-Role my-5 pt-3 pb-2">
                 <h5 className="pb-3 pb-md-5 pt-2 mx-4 fs-3">WHAT DO <span>WE DO</span> TYPICALLY OTHERS WON'T DO (OR PERHAPS THEY CAN'T)</h5>
 
-                <div className="row g-0 px-5">
-                    { roles.map((role) => (
-                        <div className="col-12 col-md-4">
+                <div ref={scroll_Why} className="row g-0 px-5">
+                    { roles.map((role, index) => (
+                        <div key={index} className="col-12 col-md-4">
                             <div className="Single-Role pt-4 pt-md-0">
                                 <div className="Role-Circle px-5 pt-2">
                                     <img src={ role.image } alt={ role.alt } />

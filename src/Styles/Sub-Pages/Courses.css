@@ -1,5 +1,5 @@
 .Back-to-Courses {
-    position: fixed;
+    position: relative;
 }
 
 .Course-Information {
@@ -7,6 +7,11 @@
     display: flex;
     flex-direction: column;
     justify-content: space-between;
+}
+
+.Course {
+    position: relative;
+    z-index: 5;
 }
 
 .Course-Title h2 {
@@ -48,7 +53,7 @@
 }
 
 .Detail-Set .Course-Fee {
-    color: rgb(219, 0, 0);
+    color: rgb(0, 10, 143);
 }
 
 .Payments {
@@ -153,10 +158,6 @@
     width: 25px;
 }
 
-.BackAction {
-    z-index: 9999;
-}
-
 .Course-Content-Section {
     background-image: url("../../Assets/Common/Course-Background.jpg");
     background-size: cover;
@@ -192,6 +193,11 @@
 
 .Course-Shadow {
     box-shadow: 10px 4px 10px 0px #00000044;
+}
+
+.Our-OutCome h5 {
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    font-weight: 800;
 }
 
 @media only screen and (min-width: 0px) and (max-width: 768px) {

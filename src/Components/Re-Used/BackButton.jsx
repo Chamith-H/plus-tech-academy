@@ -30,7 +30,7 @@ const BackButton =( props )=> {
       };
 
     return (
-      <div>
+      <div className="Got-Back">
         {animation && (
         <motion.div className="BackButton"
             initial={{ x: -100 }}

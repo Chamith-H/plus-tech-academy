@@ -5,6 +5,7 @@ import BulletList from "../Re-Used/BulletList";
 import ContactForm from "../Re-Used/ContactForm";
 import EnterprisesImage from "../../Assets/Enterprises-Page/Enterprises.png";
 import PartnerImage from "../../Assets/Enterprises-Page/Partners.png";
+import { motion } from "framer-motion";
 
 function Enterprises() {
   const title = {
@@ -105,13 +106,15 @@ function Enterprises() {
 
           <div className="Enterprises-Features px-2 px-sm-0">
               <div className="row g-0 py-3 py-sm-4 py-md-5">
-                  {features.map((feature) => (
-                      <div className="col-6 col-sm-4 col-md-2 py-3 py-md-0 d-flex justify-content-center">
+                  {features.map((feature, index) => (
+                      <motion.div className="col-6 col-sm-4 col-md-2 py-3 py-md-0 d-flex justify-content-center"
+                      initial={{ x: - index*200 }}
+                      animate={{ x: 0 , transition: { duration: 0.1 + index/6 }}}>
                           <div className="Feature-Box col-10 col-sm-9 col-md-11 col-lg-10 col-xl-9 pt-4">
                               <h6>{feature.title}</h6>
                               <p>{feature.text}</p>
                           </div>
-                      </div>
+                      </motion.div>
                   ))}
               </div>
           </div>
