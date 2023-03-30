@@ -7,7 +7,7 @@ const LinkPopup =( props )=> {
             <div className="ChooseLinks">
                 <div className="col-11 col-sm-10 col-md-9 col-lg-8">
                     <motion.div className="Wanted-Box-Popup"
-                        initial={{ scale: 0 }}
+                        initial={{ scale: 0}}
                         animate={{ scale: 1}}>
 
                         <div className="Popup-Title sticky-top px-3 pt-2">
