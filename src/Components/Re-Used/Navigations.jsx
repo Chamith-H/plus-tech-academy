@@ -11,7 +11,7 @@ const Navlinks =( props )=> {
 
     return (
         <div className="NavLinks">
-            <ul className='d-lg-flex'>
+            <ul className='ms-1 ms-md-0 d-md-flex'>
                 <li className={activeMenuItem === 'home' ? 'active' : ''}><a href="#/" onClick={()=> handle_PressACTION('home')}>Home</a></li>
                 <li className={activeMenuItem === 'learners' ? 'active' : ''}><a href="#/learners" onClick={()=> handle_PressACTION('learners')}>Learners</a></li>
                 <li className={activeMenuItem === 'educators' ? 'active' : ''}><a href="#/educators" onClick={()=> handle_PressACTION('educators')}>Educators</a></li>

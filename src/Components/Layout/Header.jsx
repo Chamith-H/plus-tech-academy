@@ -30,20 +30,20 @@ function Header() {
     return (
       <div ref={ref} className="Header sticky-top">
         <div className="Header-Important">
-            <div className="Toggler d-flex d-lg-none">
-                <img src={Toggler} alt="Toggler Icon" type="button" onClick={() => setTogglerView(!togglerView)} />
-            </div>
-
-            <a className="Brand ps-0 ps-lg-3" href='#/'>
+            <a className="Brand ps-2 ps-md-3" href='#/'>
                 <img type="button" src={BrandLogo} alt="Company Logo" />
             </a>
+
+            <div className="Toggler d-flex d-md-none">
+                <img src={Toggler} alt="Toggler Icon" type="button" onClick={() => setTogglerView(!togglerView)} />
+            </div>
         </div>
 
         <div className="Page-Handlers">
-            <div className="Expand-Menu-to-Desktops d-none d-lg-block"><Navlinks></Navlinks></div>
+            <div className="Expand-Menu-to-Desktops d-none d-md-block"><Navlinks></Navlinks></div>
 
             { togglerView && (
-                <motion.div className="Toggler-Menu-to-Mobiles d-flex justify-content-between d-block d-lg-none"
+                <motion.div className="Toggler-Menu-to-Mobiles d-flex justify-content-between d-block d-md-none"
                   initial={{ height: 0 }}
                   animate={{ height: '230px' , transition: { duration: 0.3 }}}>
                     <motion.div

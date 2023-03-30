@@ -9,11 +9,11 @@
 }
 
 .Dark-Background {
-    background-color: rgb(12,101,209);;
+    background: rgba(12, 101, 209, 0.822);;
 }
 
 .Light-Background {
-    background-color: rgb(255, 255, 255);
+    background: rgb(255, 255, 255);
 }
 
 .Light-Head {

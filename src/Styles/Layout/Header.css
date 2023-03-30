@@ -43,7 +43,7 @@
 }
 
 .Expand-Menu-to-Desktops {
-    padding-top: 19px;
+    padding-top: 20px;
     display: flex;
     list-style: none;
 }
@@ -119,4 +119,14 @@
 
 #Sign-Btn:hover {
     background: linear-gradient(to right, rgb(0, 119, 255), rgb(5, 63, 255));
+}
+
+@media only screen and (min-width: 0px) and (max-width: 768px) {
+    .Header-Important {
+        display: flex;
+        width: 100%;
+        padding-left: 7px;
+        padding-right: 7px;
+        justify-content: space-between;
+    }
 }
