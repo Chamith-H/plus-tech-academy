@@ -1,6 +1,6 @@
 import React, {useState, useEffect} from 'react';
 import "../../Styles/Effects/Animater.css"
-import Logo from "../../Assets/Header/Logo.png"
+import Logo from "../../Assets/Header/Plustech Academy Logo.png"
 import { motion } from 'framer-motion';
 
 const Animater = ( props ) => {

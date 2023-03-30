@@ -8,12 +8,12 @@ import ContactForm from "../Re-Used/ContactForm";
 import BeliefImage from "../../Assets/Others/Belief.png"
 import { useEffect } from "react";
 
-import Shaveen from "../../Assets/Team/Shaveen.jpg"
-import Lakshitha from "../../Assets/Team/Lakshitha.jpg"
-import Sachini from "../../Assets/Team/Sachini.jpeg"
-import Ronal from "../../Assets/Team/Ronal.jpg"
-import Chamith from "../../Assets/Team/Chamith.png"
-import Nadeesh from "../../Assets/Team/Nadeesh.JPG"
+import Shaveen from "../../Assets/Team/Plustech Academy Shaveen.jpg"
+import Lakshitha from "../../Assets/Team/Plustech Academy Lakshitha.jpg"
+import Sachini from "../../Assets/Team/Plustech Academy Sachini.jpeg"
+import Ronal from "../../Assets/Team/Plustech Academy Ronal.jpg"
+import Chamith from "../../Assets/Team/Plustech Academy Chamith.png"
+import Nadeesh from "../../Assets/Team/Plustech Academy Nadeesh.JPG"
 
 import { motion } from "framer-motion";
 
@@ -206,7 +206,7 @@ function AboutUs() {
                                         <h6 className="my-0"><strong>{member.name}</strong></h6>
                                     </div>
                                     
-                                    <img src={member.pic} alt="Member pic" />
+                                    <img src={member.pic} alt="Plustech Academy" />
                                     <p className="mb-1">{member.profession}</p>
                                 </motion.div>
                             </div>

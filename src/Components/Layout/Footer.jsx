@@ -1,5 +1,5 @@
 import "../../Styles/Layout/Footer.css";
-import Logo from "../../Assets/Header/Logo.png";
+import Logo from "../../Assets/Header/Plustech Academy Logo.png";
 import CallIcon from "../../Assets/Common/Call.png";
 import WhatsappIcon from "../../Assets/Common/Whatsapp.png";
 import AdminData from "../../Datasets/AdminData"

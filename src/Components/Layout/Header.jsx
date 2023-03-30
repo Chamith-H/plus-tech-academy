@@ -2,7 +2,7 @@ import React from 'react';
 import "../../Styles/Layout/Header.css";
 import { useState, useRef, useEffect } from "react";
 import { motion } from 'framer-motion';
-import BrandLogo from "../../Assets/Header/Logo.png";
+import BrandLogo from "../../Assets/Header/Plustech Academy Logo.png";
 import Toggler from "../../Assets/Header/Toggler.png";
 import TogglerBackground from "../../Assets/Header/Toggler-Background.png";
 import Navlinks from "../Re-Used/Navigations";
@@ -31,7 +31,7 @@ function Header() {
       <div ref={ref} className="Header sticky-top">
         <div className="Header-Important">
             <a className="Brand ps-2 ps-md-3" href='#/'>
-                <img type="button" src={BrandLogo} alt="Company Logo" />
+                <img type="button" src={BrandLogo} alt="Plustech Academy Logo" />
             </a>
 
             <div className="Toggler d-flex d-md-none">
