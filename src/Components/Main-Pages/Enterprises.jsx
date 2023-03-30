@@ -63,10 +63,10 @@ function Enterprises() {
     title: 'WHY OUR STUDENTS',
 
     benifitList : [
-        'Job ready individuals',
-        'Have high motivation',
-        'Persistent problem solver',
-        'Have a growth mindset'
+        'Job ready individuals.',
+        'Have a high motivation.',
+        'Persistent problem solver.',
+        'Have a growth mindset.'
     ],
   }
 

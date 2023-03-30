@@ -275,7 +275,7 @@ function AboutUs() {
                 <div className="row g-0 pt-4 Faq-List pb-3">
                     {faqs.map((faq) => (
                         <div className="col-12 col-md-6 px-3 px-sm-4 pb-2">
-                            <h6>{faq.question}</h6>
+                            <p><strong>{faq.question}</strong></p>
                             <p>{faq.answer}</p>
                         </div>
                     ))}

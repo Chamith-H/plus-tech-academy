@@ -18,7 +18,7 @@ function Footer() {
                   <div className="col-12 col-sm-7 col-md-6 pt-5 pt-sm-5 pb-sm-4 pb-md-0 pt-md-0 Footer-Align">
                       <div className="Footer-Content-Info mx-lg-4 px-5">
                           <h4 className="mt-lg-3 mb-2">+TECH ACADEMY</h4>
-                          <p>At <span>+Tech Academy</span>, our goal is to help children, youth and everyone else fall in love with Coding & Digital Jobs. </p>
+                          <p>At <strong>+Tech Academy</strong>, our goal is to help children, youth and everyone else fall in love with Coding & Digital Jobs. </p>
                       </div>
                   </div>
 

@@ -77,7 +77,7 @@ function Course() {
             name:'email',
             label:'Email',
             type:'email',
-            placeholder:'Your name',
+            placeholder:'Your email',
             disable:false,
             required:false
         },

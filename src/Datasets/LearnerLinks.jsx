@@ -133,10 +133,6 @@ const LearnerLinks = [
                         link:'https://www.workingnomads.com/jobs'
                     },
 
-                    {
-                        name:'workingnomads.com',
-                        link:'https://www.workingnomads.com/jobs'
-                    },
         ]
     },
 
