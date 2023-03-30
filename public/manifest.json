@@ -1,10 +1,10 @@
 {
-  "short_name": "React App",
+  "short_name": "+Tech Academy",
   "name": "Create React App Sample",
   "icons": [
     {
       "src": "favicon.ico",
-      "sizes": "64x64 32x32 24x24 16x16",
+      "sizes": "96x64 48x32 32x24 24x16",
       "type": "image/x-icon"
     },
     {
