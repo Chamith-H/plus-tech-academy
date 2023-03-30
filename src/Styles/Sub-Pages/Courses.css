@@ -200,6 +200,16 @@
     font-weight: 800;
 }
 
+@media only screen and (min-width: 0px) and (max-width: 576px) {
+    .Course-Content-Section h5 {
+        font-size: 17px;
+    }
+
+    .Course-Content-Section p {
+        font-size: 15px;
+    }
+}
+
 @media only screen and (min-width: 0px) and (max-width: 768px) {
     .Payment-Instructions {
         border-left-style: none;

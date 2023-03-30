@@ -381,9 +381,9 @@ function Course() {
                 <div className="Course-Content-Section">
                     <div className="d-flex justify-content-center py-4 py-md-5 Align-Course-Content px-3 px-sm-0">
                         <div type="button" onClick={()=> download_PDF(dataSet.file, formData.title)} className="Course-Pdf col-11 col-sm-10 col-md-9 pt-4 pb-2">
-                            <h5 className="text-center">Download the course content</h5>
+                            <h5 className="text-center px-4 px-sm-0">Download the course content</h5>
                             <img src={PDF_Icon} alt="PDF icon" />
-                            <p className="text-center">{formData.title}.pdf</p>
+                            <p className="text-center px-4 px-sm-0">{formData.title}.pdf</p>
                         </div>
                     </div>
                 </div>
