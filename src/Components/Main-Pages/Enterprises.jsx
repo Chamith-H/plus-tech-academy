@@ -9,10 +9,10 @@ import { motion } from "framer-motion";
 
 function Enterprises() {
   const title = {
-    first: 'BE PART OF AN',
-    highlight:'AMAZING JOURNEY',
-    next:'TO BUILD TALENT,',
-    last:'IMPACT TECH INDUSTRY'
+    first: 'HIRE THE',
+    highlight:'JOB',
+    next:'READY TECH TALENT',
+    last:''
   }
 
   const benifits = {

@@ -15,10 +15,10 @@ function Educators() {
     const navigate = useNavigate();
 
     const title = {
-        first: 'WE SOW SEEDS THAT WILL MAKE A HUNDRED AND THOUSANDS TO',
-        highlight:'SUCCEED',
-        next:'IN THEIR',
-        last:'ASPIRATIONS'
+        first: 'BE PART OF AN AMAZING JOURNEY TO BUILD',
+        highlight:'TALENT,',
+        next:'IMPACT TECH INDUSTRY',
+        last:''
     }
 
     const likes = [

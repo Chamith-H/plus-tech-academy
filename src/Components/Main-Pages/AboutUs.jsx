@@ -171,7 +171,7 @@ function AboutUs() {
         <div className="AboutUs">
             <div className="row g-0">
       	        <div className="col-12 col-md-5 col-lg-4">
-                    <PageTitle Highlight='+Tech Academy' Next='is focused to up skill anyone with Tech Talent with a growth mindset.'></PageTitle>
+                    <PageTitle First='WE SOW SEEDS THAT WILL MAKE A HUNDRED AND THOUSANDS TO' Highlight='SUCCEED' Next='IN THEIR ASPIRATIONS'></PageTitle>
                 </div>
 
                 <div className="col-12 col-md-7 col-lg-8 d-flex align-items-center">

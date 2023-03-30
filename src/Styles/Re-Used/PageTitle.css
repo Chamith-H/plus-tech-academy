@@ -1,6 +1,7 @@
 .PageTitle {
     background-image: url('../../Assets/Learners-Page/Background.jpg');
     background-size: cover;
+    height: 100%;
 }
 
 .align-Title-Box {
