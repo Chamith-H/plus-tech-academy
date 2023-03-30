@@ -42,7 +42,7 @@ function Footer() {
 
           <div className="Align-Bottom">
               <div className="Footer-Bottom py-1">
-                  Managed By : Can Academy (Pvt) Ltd
+                  Managed By : Can Academyd (Pvt) Ltd
               </div>
           </div>
           
