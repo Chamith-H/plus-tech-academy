@@ -136,6 +136,21 @@ const LearnerLinks = [
                     {
                         name:'dribbble.com',
                         link:'https://www.dribbble.com'
+                    },
+
+                    {
+                        name:'devremote.io',
+                        link:'https://devremote.io/'
+                    },
+
+                    {
+                        name:'remotefrontendjobs.com',
+                        link:'https://www.remotefrontendjobs.com/'
+                    },
+
+                    {
+                        name:'jobsinjs.com',
+                        link:'https://jobsinjs.com/'
                     }
 
         ]
