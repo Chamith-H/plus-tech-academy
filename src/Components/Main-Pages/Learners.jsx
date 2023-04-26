@@ -24,7 +24,7 @@ function Learners() {
     }
 
     const benifits = {
-      title: 'WHY ENROLL ?',
+      title: 'WHY ENROLL ',
 
       benifitList : [
           'Connect with a community of techies who are happy for each other’s success.',
